@@ -244,7 +244,7 @@ def discovery_cycle():
                 if an["pump_without_hype"]:
                     an["category"] = "BOT_SUSPECT"
                 results.append(an)
-                log(f"  {sym}: Preis z{a['z_price']:+.1f} | X z{an['z']:+.1f} | {an['category']}"
+                log(f"  {sym}: Preis z{a['z']:+.1f} | X z{an['z']:+.1f} | {an['category']}"
                     + (" ⚠PUMP-OHNE-HYPE" if an["pump_without_hype"] else ""))
         time.sleep(0.8)
     return results
