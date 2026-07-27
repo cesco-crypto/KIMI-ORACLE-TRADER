@@ -210,39 +210,33 @@ def maybe_push_github(payload):
         log("GH-PUSH-ERR:", type(e).__name__, str(e)[:120])
 
 
-def cycle():
+ANOMALY_URL = "https://raw.githubusercontent.com/cesco-crypto/KIMI-ORACLE-TRADER/main/data/binance_anomalies.json"
+
+def fetch_anomalies():
+    """Liest die Anomalie-Liste der Engine (Binance-Entdecker) aus dem Repo."""
+    try:
+        req = urllib.request.Request(ANOMALY_URL, headers={"User-Agent": "social_x/1.0"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.loads(r.read().decode()).get("anomalies", [])
+    except Exception as e:
+        log("ANOMALIE-FETCH-ERR:", type(e).__name__)
+        return []
+
+
+def discovery_cycle():
+    """KASKADE: Binance entdeckt -> X bestaetigt. Queried X nur fuer Anomalie-Coins."""
+    anos = fetch_anomalies()
+    if not anos:
+        return []
     if not budget_ok():
-        return
-    stats, alerts = [], []
-    for q, sym in COINS:
-        pts = coin_counts(q)
+        return []
+    log(f"DISCOVERY: {len(anos)} Anomalien von der Engine — X-Validierung laeuft")
+    results = []
+    for a in anos[:10]:  # Top-10 Anomalien reichen
+        base, sym = a["base"], a["symbol"]
+        pts = coin_counts(f"{base} crypto")
         if pts:
-            a = analyze(sym, pts)
-            if a:
-                stats.append(a)
-        time.sleep(0.8)
-    log(f"Counts: {len(stats)} Coins | Budget: ${state['cost_today']:.2f}")
-    if state["reads_today"] % 2 == 0:  # Whale-Poll jeden 2. Counts-Run
-        wa = whale_poll()
-        alerts.extend(wa)
-        for w in wa:
-            log(f"⚡ WHALE: @{w['whale']} -> {w['coins']} | {w['text'][:80]}")
-    write_heatmap(stats, alerts)
-    top = [c for c in stats if c["z"] >= ALERT_Z]
-    for c in top:
-        log(f"🔥 {c['category']:7s} {c['symbol']:14s} z={c['z']:+.1f} ({c['mentions_last_h']}/h vs Basis {c['baseline_h']}/h)")
-
-
-def main():
-    log("=== SOCIAL_X v1 gestartet ===")
-    log(f"Coins: {len(COINS)} | Whales: {len(WHALES)} | Budget: ${DAILY_BUDGET_USD}/Tag | Intervall: {CADENCE_MIN}min")
-    while True:
-        try:
-            cycle()
-        except Exception as e:
-            log("CYCLE-ERR:", type(e).__name__, str(e)[:150])
-        time.sleep(CADENCE_MIN * 60)
-
-
-if __name__ == "__main__":
-    main()
+            an = analyze(sym, pts)
+            if an:
+                an.update(chg24=a["chg24"], z_price=a["z"], direction=a["dir"],
+                          fu
