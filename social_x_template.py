@@ -17,17 +17,19 @@ from datetime import datetime, timezone
 # ================= CONFIG =================
 BEARER = "DEIN_X_BEARER_TOKEN"
 OUT_DIR = os.path.expanduser("~/social_engine")          # Ausgabe-Ordner auf deinem Mac
-COINS = [  # (query, symbol) — liquideste Perps aus deiner Engine
-    ("PUMP crypto", "PUMPUSDT"), ("KAITO crypto", "KAITOUSDT"), ("ESP crypto", "ESPUSDT"),
-    ("WLD worldcoin", "WLDUSDT"), ("INJ injective", "INJUSDT"), ("SOL solana", "SOLUSDT"),
-    ("ETH ethereum", "ETHUSDT"), ("DOGE dogecoin", "DOGEUSDT"), ("PEPE coin", "1000PEPEUSDT"),
-    ("HYPE hyperliquid", "HYPEUSDT"), ("SUI sui crypto", "SUIUSDT"), ("XRP ripple", "XRPUSDT"),
-    ("ADA cardano", "ADAUSDT"), ("LINK chainlink", "LINKUSDT"), ("AVAX avalanche", "AVAXUSDT"),
-    ("NEAR protocol", "NEARUSDT"), ("ARB arbitrum", "ARBUSDT"), ("ONDO ondo", "ONDOUSDT"),
-    ("TRX tron", "TRXUSDT"), ("WIF dogwifhat", "WIFUSDT"), ("FARTCOIN", "FARTCOINUSDT"),
-    ("VIRTUAL virtuals", "VIRTUALUSDT"), ("AAVE aave", "AAVEUSDT"), ("UNI uniswap", "UNIUSDT"),
-    ("CAKE pancakeswap", "CAKEUSDT"), ("SNX synthetix", "SNXUSDT"), ("LTC litecoin", "LTCUSDT"),
-    ("BCH bitcoin cash", "BCHUSDT"), ("TAO bittensor", "TAOUSDT"), ("ENA ethena", "ENAUSDT"),
+COINS = [  # (query, symbol) — CASHTAG-Strategie: Mini-Caps rein $TICKER, Majors $TICKER OR Name
+    ("$PUMP OR pump.fun", "PUMPUSDT"), ("$KAITO", "KAITOUSDT"), ("$ESP", "ESPUSDT"),
+    ("$WLD OR worldcoin", "WLDUSDT"), ("$INJ OR injective", "INJUSDT"), ("$SOL OR solana", "SOLUSDT"),
+    ("$ETH OR ethereum", "ETHUSDT"), ("$DOGE OR dogecoin", "DOGEUSDT"), ("$PEPE", "1000PEPEUSDT"),
+    ("$HYPE OR hyperliquid", "HYPEUSDT"), ("$SUI", "SUIUSDT"), ("$XRP OR ripple", "XRPUSDT"),
+    ("$ADA OR cardano", "ADAUSDT"), ("$LINK OR chainlink", "LINKUSDT"), ("$AVAX OR avalanche", "AVAXUSDT"),
+    ("$NEAR", "NEARUSDT"), ("$ARB OR arbitrum", "ARBUSDT"), ("$ONDO", "ONDOUSDT"),
+    ("$TRX OR tron", "TRXUSDT"), ("$WIF", "WIFUSDT"), ("$FARTCOIN", "FARTCOINUSDT"),
+    ("$VIRTUAL", "VIRTUALUSDT"), ("$AAVE", "AAVEUSDT"), ("$UNI OR uniswap", "UNIUSDT"),
+    ("$CAKE OR pancakeswap", "CAKEUSDT"), ("$SNX", "SNXUSDT"), ("$LTC OR litecoin", "LTCUSDT"),
+    ("$BCH", "BCHUSDT"), ("$TAO OR bittensor", "TAOUSDT"), ("$ENA OR ethena", "ENAUSDT"),
+    ("$ON", "ONUSDT"), ("$TAG", "TAGUSDT"), ("$BEAT", "BEATUSDT"), ("$LA", "LAUSDT"),
+    ("$BTW", "BTWUSDT"), ("$BANK", "BANKUSDT"), ("$AKE", "AKEUSDT"), ("$EUL", "EULUSDT"),
 ]
 WHALES = [  # Top-Whales v1 (username) — IDs werden automatisch aufgeloest
     "elonmusk", "cz_binance", "lookonchain", "whale_alert", "WatcherGuru",
@@ -234,7 +236,7 @@ def discovery_cycle():
     results = []
     for a in anos[:10]:  # Top-10 Anomalien reichen
         base, sym = a["base"], a["symbol"]
-        pts = coin_counts(f"{base} crypto")
+        pts = coin_counts(f"${base}")   # CASHTAG-Suche (Praezision fuer Mini-Caps)
         if pts:
             an = analyze(sym, pts)
             if an:
