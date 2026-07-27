@@ -1,0 +1,155 @@
+{
+ "ts": 1785167130626,
+ "anomalies": [
+  {
+   "symbol": "ONUSDT",
+   "base": "ON",
+   "z": 11.38,
+   "dir": "up",
+   "chg24": 47.8,
+   "qvol_mio": 89.1,
+   "fund": 0.0504,
+   "mark": 0.18053701
+  },
+  {
+   "symbol": "AKEUSDT",
+   "base": "AKE",
+   "z": 10.23,
+   "dir": "up",
+   "chg24": 42.74,
+   "qvol_mio": 512.2,
+   "fund": 0.005,
+   "mark": 0.00417144
+  },
+  {
+   "symbol": "BTWUSDT",
+   "base": "BTW",
+   "z": 8.14,
+   "dir": "up",
+   "chg24": 33.58,
+   "qvol_mio": 132.6,
+   "fund": 0.0446,
+   "mark": 0.09893
+  },
+  {
+   "symbol": "BROCCOLIF3BUSDT",
+   "base": "BROCCOLIF3B",
+   "z": 7.41,
+   "dir": "up",
+   "chg24": 30.36,
+   "qvol_mio": 4.3,
+   "fund": 0.1447,
+   "mark": 0.00687664
+  },
+  {
+   "symbol": "BEATUSDT",
+   "base": "BEAT",
+   "z": 6.76,
+   "dir": "up",
+   "chg24": 27.48,
+   "qvol_mio": 63.4,
+   "fund": 0.005,
+   "mark": 4.571
+  },
+  {
+   "symbol": "EULUSDT",
+   "base": "EUL",
+   "z": -6.41,
+   "dir": "down",
+   "chg24": -30.45,
+   "qvol_mio": 336.4,
+   "fund": -0.4469,
+   "mark": 1.7984
+  },
+  {
+   "symbol": "DEXEUSDT",
+   "base": "DEXE",
+   "z": -5.82,
+   "dir": "down",
+   "chg24": -27.83,
+   "qvol_mio": 354.9,
+   "fund": -0.1897,
+   "mark": 2.632
+  },
+  {
+   "symbol": "TAGUSDT",
+   "base": "TAG",
+   "z": 5.43,
+   "dir": "up",
+   "chg24": 21.64,
+   "qvol_mio": 20.7,
+   "fund": 0.0509,
+   "mark": 0.001382
+  },
+  {
+   "symbol": "SNXXUSDT",
+   "base": "SNXX",
+   "z": -5.21,
+   "dir": "down",
+   "chg24": -25.14,
+   "qvol_mio": 178.1,
+   "fund": 0.0,
+   "mark": 11.07912139
+  },
+  {
+   "symbol": "BULLAUSDT",
+   "base": "BULLA",
+   "z": 4.73,
+   "dir": "up",
+   "chg24": 18.58,
+   "qvol_mio": 7.3,
+   "fund": 0.0776,
+   "mark": 0.013271
+  },
+  {
+   "symbol": "ZAMAUSDT",
+   "base": "ZAMA",
+   "z": 4.13,
+   "dir": "up",
+   "chg24": 15.94,
+   "qvol_mio": 57.6,
+   "fund": 0.0038,
+   "mark": 0.0631
+  },
+  {
+   "symbol": "MINIMAXUSDT",
+   "base": "MINIMAX",
+   "z": 4.03,
+   "dir": "up",
+   "chg24": 15.48,
+   "qvol_mio": 12.4,
+   "fund": -0.0452,
+   "mark": 28.35
+  },
+  {
+   "symbol": "STORJUSDT",
+   "base": "STORJ",
+   "z": -3.79,
+   "dir": "down",
+   "chg24": -18.91,
+   "qvol_mio": 18.0,
+   "fund": -0.0242,
+   "mark": 0.06034
+  },
+  {
+   "symbol": "\u9f99\u867eUSDT",
+   "base": "\u9f99\u867e",
+   "z": 3.78,
+   "dir": "up",
+   "chg24": 14.39,
+   "qvol_mio": 6.0,
+   "fund": 0.0087,
+   "mark": 0.02003
+  },
+  {
+   "symbol": "PUMPUSDT",
+   "base": "PUMP",
+   "z": 3.77,
+   "dir": "up",
+   "chg24": 14.35,
+   "qvol_mio": 145.7,
+   "fund": 0.0045,
+   "mark": 0.002113
+  }
+ ]
+}
