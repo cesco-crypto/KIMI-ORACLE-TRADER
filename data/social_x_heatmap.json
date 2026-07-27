@@ -1,17 +1,17 @@
 {
- "ts": 1785175872774,
+ "ts": 1785179528592,
  "budget": {
-  "cost_today": 0.36,
+  "cost_today": 0.645,
   "limit": 3.0,
-  "reads_today": 72
+  "reads_today": 129
  },
  "coins": [
   {
    "symbol": "BTWUSDT",
-   "mentions_last_h": 32,
+   "mentions_last_h": 13,
    "baseline_h": 1,
    "z": 8,
-   "accel_3h": -13,
+   "accel_3h": -10,
    "category": "HYPE",
    "chg24": 33.58,
    "z_price": 8.14,
@@ -22,10 +22,10 @@
   },
   {
    "symbol": "EULUSDT",
-   "mentions_last_h": 14,
+   "mentions_last_h": 10,
    "baseline_h": 1,
-   "z": 8,
-   "accel_3h": -7,
+   "z": 6.07,
+   "accel_3h": -4,
    "category": "HYPE",
    "chg24": -30.45,
    "z_price": -6.41,
@@ -36,41 +36,27 @@
   },
   {
    "symbol": "LAUSDT",
-   "mentions_last_h": 32,
+   "mentions_last_h": 18,
    "baseline_h": 3,
-   "z": 8,
-   "accel_3h": 10,
+   "z": 5.06,
+   "accel_3h": 15,
    "category": "HYPE"
   },
   {
-   "symbol": "TAGUSDT",
-   "mentions_last_h": 9,
-   "baseline_h": 1,
-   "z": 5.4,
-   "accel_3h": 0,
-   "category": "HYPE",
-   "chg24": 21.64,
-   "z_price": 5.43,
-   "direction": "up",
-   "fund": 0.0509,
-   "hype_confirmed": true,
-   "pump_without_hype": false
-  },
-  {
-   "symbol": "ESPUSDT",
-   "mentions_last_h": 7,
-   "baseline_h": 0,
-   "z": 4.72,
-   "accel_3h": 1,
+   "symbol": "BCHUSDT",
+   "mentions_last_h": 17,
+   "baseline_h": 4,
+   "z": 4.38,
+   "accel_3h": 6,
    "category": "HYPE"
   },
   {
    "symbol": "BEATUSDT",
-   "mentions_last_h": 21,
+   "mentions_last_h": 23,
    "baseline_h": 5,
-   "z": 3.6,
-   "accel_3h": -3,
-   "category": "RISING",
+   "z": 4.05,
+   "accel_3h": 0,
+   "category": "HYPE",
    "chg24": 27.48,
    "z_price": 6.76,
    "direction": "up",
@@ -79,245 +65,197 @@
    "pump_without_hype": false
   },
   {
-   "symbol": "BULLAUSDT",
-   "mentions_last_h": 5,
-   "baseline_h": 0,
-   "z": 3.37,
-   "accel_3h": 1,
-   "category": "RISING",
-   "chg24": 18.58,
-   "z_price": 4.73,
-   "direction": "up",
-   "fund": 0.0776,
+   "symbol": "SNXXUSDT",
+   "mentions_last_h": 7,
+   "baseline_h": 1,
+   "z": 4.05,
+   "accel_3h": -1,
+   "category": "HYPE",
+   "chg24": -25.14,
+   "z_price": -5.21,
+   "direction": "down",
+   "fund": 0.0,
    "hype_confirmed": true,
    "pump_without_hype": false
   },
   {
-   "symbol": "ARBUSDT",
-   "mentions_last_h": 218,
-   "baseline_h": 83,
-   "z": 3.14,
-   "accel_3h": 65,
-   "category": "RISING"
-  },
-  {
-   "symbol": "SOLUSDT",
-   "mentions_last_h": 6016,
-   "baseline_h": 3946,
-   "z": 1.78,
-   "accel_3h": -255,
-   "category": "normal"
+   "symbol": "TAGUSDT",
+   "mentions_last_h": 5,
+   "baseline_h": 1,
+   "z": 2.7,
+   "accel_3h": -2,
+   "category": "RISING",
+   "chg24": 21.64,
+   "z_price": 5.43,
+   "direction": "up",
+   "fund": 0.0509,
+   "hype_confirmed": true,
+   "pump_without_hype": false
   },
   {
    "symbol": "ADAUSDT",
-   "mentions_last_h": 255,
+   "mentions_last_h": 284,
    "baseline_h": 150,
-   "z": 1.73,
-   "accel_3h": 61,
+   "z": 2.2,
+   "accel_3h": 33,
+   "category": "normal"
+  },
+  {
+   "symbol": "ESPUSDT",
+   "mentions_last_h": 3,
+   "baseline_h": 0,
+   "z": 2.02,
+   "accel_3h": -4,
+   "category": "normal"
+  },
+  {
+   "symbol": "BANKUSDT",
+   "mentions_last_h": 143,
+   "baseline_h": 60,
+   "z": 1.87,
+   "accel_3h": -10,
+   "category": "normal"
+  },
+  {
+   "symbol": "SUIUSDT",
+   "mentions_last_h": 42,
+   "baseline_h": 22,
+   "z": 1.69,
+   "accel_3h": -2,
+   "category": "normal"
+  },
+  {
+   "symbol": "KAITOUSDT",
+   "mentions_last_h": 28,
+   "baseline_h": 11,
+   "z": 1.64,
+   "accel_3h": 6,
+   "category": "normal"
+  },
+  {
+   "symbol": "LINKUSDT",
+   "mentions_last_h": 153,
+   "baseline_h": 98,
+   "z": 1.48,
+   "accel_3h": -1,
+   "category": "normal"
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "mentions_last_h": 32,
+   "baseline_h": 16,
+   "z": 1.35,
+   "accel_3h": -12,
+   "category": "normal"
+  },
+  {
+   "symbol": "ETHUSDT",
+   "mentions_last_h": 1434,
+   "baseline_h": 997,
+   "z": 1.33,
+   "accel_3h": -246,
+   "category": "normal"
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "mentions_last_h": 252,
+   "baseline_h": 177,
+   "z": 1.3,
+   "accel_3h": -99,
+   "category": "normal"
+  },
+  {
+   "symbol": "SOLUSDT",
+   "mentions_last_h": 5444,
+   "baseline_h": 3946,
+   "z": 1.29,
+   "accel_3h": -328,
+   "category": "normal"
+  },
+  {
+   "symbol": "TAOUSDT",
+   "mentions_last_h": 93,
+   "baseline_h": 71,
+   "z": 0.78,
+   "accel_3h": 23,
+   "category": "normal"
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "mentions_last_h": 182,
+   "baseline_h": 140,
+   "z": 0.75,
+   "accel_3h": 23,
+   "category": "normal"
+  },
+  {
+   "symbol": "INJUSDT",
+   "mentions_last_h": 199,
+   "baseline_h": 167,
+   "z": 0.58,
+   "accel_3h": -1,
    "category": "normal"
   },
   {
    "symbol": "ONUSDT",
-   "mentions_last_h": 16,
+   "mentions_last_h": 9,
    "baseline_h": 6,
-   "z": 1.69,
-   "accel_3h": -5,
-   "category": "normal",
+   "z": 0.51,
+   "accel_3h": -2,
+   "category": "BOT_SUSPECT",
    "chg24": 47.8,
    "z_price": 11.38,
    "direction": "up",
    "fund": 0.0504,
    "hype_confirmed": false,
-   "pump_without_hype": false
+   "pump_without_hype": true
   },
   {
-   "symbol": "VIRTUALUSDT",
-   "mentions_last_h": 13,
-   "baseline_h": 6,
-   "z": 1.57,
-   "accel_3h": 1,
-   "category": "normal"
-  },
-  {
-   "symbol": "BCHUSDT",
-   "mentions_last_h": 8,
-   "baseline_h": 4,
-   "z": 1.35,
+   "symbol": "FARTCOINUSDT",
+   "mentions_last_h": 11,
+   "baseline_h": 8,
+   "z": 0.51,
    "accel_3h": -6,
    "category": "normal"
   },
   {
-   "symbol": "ETHUSDT",
-   "mentions_last_h": 1384,
-   "baseline_h": 1001,
-   "z": 1.2,
-   "accel_3h": -209,
-   "category": "normal"
-  },
-  {
-   "symbol": "KAITOUSDT",
-   "mentions_last_h": 23,
-   "baseline_h": 11,
-   "z": 1.16,
-   "accel_3h": 4,
-   "category": "normal"
-  },
-  {
-   "symbol": "TAOUSDT",
-   "mentions_last_h": 101,
-   "baseline_h": 71,
-   "z": 1.12,
-   "accel_3h": 3,
-   "category": "normal"
-  },
-  {
-   "symbol": "WIFUSDT",
-   "mentions_last_h": 17,
-   "baseline_h": 11,
-   "z": 1.01,
-   "accel_3h": -3,
-   "category": "normal"
-  },
-  {
-   "symbol": "INJUSDT",
-   "mentions_last_h": 217,
-   "baseline_h": 167,
-   "z": 0.91,
-   "accel_3h": -33,
-   "category": "normal"
-  },
-  {
-   "symbol": "LTCUSDT",
-   "mentions_last_h": 122,
-   "baseline_h": 91,
-   "z": 0.91,
-   "accel_3h": -37,
-   "category": "normal"
-  },
-  {
-   "symbol": "FARTCOINUSDT",
-   "mentions_last_h": 13,
-   "baseline_h": 8,
-   "z": 0.84,
-   "accel_3h": -7,
-   "category": "normal"
-  },
-  {
-   "symbol": "UNIUSDT",
-   "mentions_last_h": 167,
-   "baseline_h": 126,
-   "z": 0.84,
-   "accel_3h": 29,
-   "category": "normal"
-  },
-  {
-   "symbol": "PUMPUSDT",
-   "mentions_last_h": 161,
-   "baseline_h": 125,
-   "z": 0.81,
-   "accel_3h": 6,
-   "category": "normal"
-  },
-  {
    "symbol": "XRPUSDT",
-   "mentions_last_h": 671,
+   "mentions_last_h": 628,
    "baseline_h": 557,
-   "z": 0.7,
-   "accel_3h": 27,
-   "category": "normal"
-  },
-  {
-   "symbol": "AAVEUSDT",
-   "mentions_last_h": 14,
-   "baseline_h": 9,
-   "z": 0.67,
-   "accel_3h": -4,
-   "category": "normal"
-  },
-  {
-   "symbol": "SNXUSDT",
-   "mentions_last_h": 1,
-   "baseline_h": 0,
-   "z": 0.67,
-   "accel_3h": 0,
-   "category": "normal"
-  },
-  {
-   "symbol": "DOGEUSDT",
-   "mentions_last_h": 215,
-   "baseline_h": 177,
-   "z": 0.64,
-   "accel_3h": -124,
-   "category": "normal"
-  },
-  {
-   "symbol": "SUIUSDT",
-   "mentions_last_h": 28,
-   "baseline_h": 22,
-   "z": 0.51,
-   "accel_3h": -16,
+   "z": 0.43,
+   "accel_3h": 36,
    "category": "normal"
   },
   {
    "symbol": "TRXUSDT",
-   "mentions_last_h": 721,
+   "mentions_last_h": 687,
    "baseline_h": 629,
-   "z": 0.49,
-   "accel_3h": 7,
+   "z": 0.31,
+   "accel_3h": -116,
    "category": "normal"
   },
   {
-   "symbol": "AKEUSDT",
-   "mentions_last_h": 31,
-   "baseline_h": 22,
-   "z": 0.47,
-   "accel_3h": -15,
-   "category": "BOT_SUSPECT",
-   "chg24": 42.74,
-   "z_price": 10.23,
-   "direction": "up",
-   "fund": 0.005,
-   "hype_confirmed": false,
-   "pump_without_hype": true
-  },
-  {
-   "symbol": "LINKUSDT",
-   "mentions_last_h": 115,
-   "baseline_h": 98,
-   "z": 0.44,
-   "accel_3h": -19,
+   "symbol": "UNIUSDT",
+   "mentions_last_h": 139,
+   "baseline_h": 125,
+   "z": 0.29,
+   "accel_3h": 26,
    "category": "normal"
   },
   {
-   "symbol": "AVAXUSDT",
-   "mentions_last_h": 164,
-   "baseline_h": 140,
-   "z": 0.42,
-   "accel_3h": 14,
-   "category": "normal"
-  },
-  {
-   "symbol": "BANKUSDT",
-   "mentions_last_h": 72,
-   "baseline_h": 60,
+   "symbol": "AAVEUSDT",
+   "mentions_last_h": 11,
+   "baseline_h": 9,
    "z": 0.27,
-   "accel_3h": -25,
+   "accel_3h": 1,
    "category": "normal"
   },
   {
-   "symbol": "NEARUSDT",
-   "mentions_last_h": 9,
-   "baseline_h": 8,
-   "z": 0.22,
-   "accel_3h": -9,
-   "category": "normal"
-  },
-  {
-   "symbol": "ENAUSDT",
-   "mentions_last_h": 22,
-   "baseline_h": 20,
-   "z": 0.15,
-   "accel_3h": -18,
+   "symbol": "PUMPUSDT",
+   "mentions_last_h": 134,
+   "baseline_h": 126,
+   "z": 0.19,
+   "accel_3h": 2,
    "category": "normal"
   },
   {
@@ -325,7 +263,7 @@
    "mentions_last_h": 233,
    "baseline_h": 226,
    "z": 0.1,
-   "accel_3h": -51,
+   "accel_3h": -61,
    "category": "normal"
   },
   {
@@ -343,35 +281,119 @@
    "pump_without_hype": true
   },
   {
-   "symbol": "CAKEUSDT",
-   "mentions_last_h": 16,
-   "baseline_h": 17,
-   "z": -0.08,
-   "accel_3h": -13,
+   "symbol": "BULLAUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 0,
+   "z": 0.0,
+   "accel_3h": 1,
+   "category": "BOT_SUSPECT",
+   "chg24": 18.58,
+   "z_price": 4.73,
+   "direction": "up",
+   "fund": 0.0776,
+   "hype_confirmed": false,
+   "pump_without_hype": true
+  },
+  {
+   "symbol": "SNXUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 0,
+   "z": 0.0,
+   "accel_3h": -1,
+   "category": "normal"
+  },
+  {
+   "symbol": "LTCUSDT",
+   "mentions_last_h": 92,
+   "baseline_h": 92,
+   "z": 0.0,
+   "accel_3h": -12,
+   "category": "normal"
+  },
+  {
+   "symbol": "AKEUSDT",
+   "mentions_last_h": 21,
+   "baseline_h": 22,
+   "z": -0.05,
+   "accel_3h": -7,
+   "category": "BOT_SUSPECT",
+   "chg24": 42.74,
+   "z_price": 10.23,
+   "direction": "up",
+   "fund": 0.005,
+   "hype_confirmed": false,
+   "pump_without_hype": true
+  },
+  {
+   "symbol": "ARBUSDT",
+   "mentions_last_h": 79,
+   "baseline_h": 83,
+   "z": -0.09,
+   "accel_3h": 35,
    "category": "normal"
   },
   {
    "symbol": "ONDOUSDT",
-   "mentions_last_h": 23,
+   "mentions_last_h": 26,
    "baseline_h": 29,
-   "z": -0.22,
-   "accel_3h": -13,
+   "z": -0.11,
+   "accel_3h": -3,
    "category": "normal"
   },
   {
    "symbol": "1000PEPEUSDT",
-   "mentions_last_h": 68,
+   "mentions_last_h": 67,
    "baseline_h": 80,
-   "z": -0.26,
-   "accel_3h": -42,
+   "z": -0.28,
+   "accel_3h": -44,
+   "category": "normal"
+  },
+  {
+   "symbol": "NEARUSDT",
+   "mentions_last_h": 6,
+   "baseline_h": 8,
+   "z": -0.45,
+   "accel_3h": -3,
+   "category": "normal"
+  },
+  {
+   "symbol": "VIRTUALUSDT",
+   "mentions_last_h": 4,
+   "baseline_h": 6,
+   "z": -0.45,
+   "accel_3h": 0,
+   "category": "normal"
+  },
+  {
+   "symbol": "ENAUSDT",
+   "mentions_last_h": 13,
+   "baseline_h": 20,
+   "z": -0.52,
+   "accel_3h": -12,
+   "category": "normal"
+  },
+  {
+   "symbol": "WLDUSDT",
+   "mentions_last_h": 10,
+   "baseline_h": 18,
+   "z": -0.67,
+   "accel_3h": -7,
+   "category": "normal"
+  },
+  {
+   "symbol": "WIFUSDT",
+   "mentions_last_h": 7,
+   "baseline_h": 11,
+   "z": -0.67,
+   "accel_3h": 1,
    "category": "normal"
   },
   {
    "symbol": "DEXEUSDT",
-   "mentions_last_h": 28,
+   "mentions_last_h": 15,
    "baseline_h": 41,
-   "z": -0.4,
-   "accel_3h": -17,
+   "z": -0.84,
+   "accel_3h": -13,
    "category": "BOT_SUSPECT",
    "chg24": -27.83,
    "z_price": -5.82,
@@ -379,479 +401,31 @@
    "fund": -0.1897,
    "hype_confirmed": false,
    "pump_without_hype": true
-  },
-  {
-   "symbol": "WLDUSDT",
-   "mentions_last_h": 13,
-   "baseline_h": 18,
-   "z": -0.42,
-   "accel_3h": -13,
-   "category": "normal"
-  },
-  {
-   "symbol": "SNXXUSDT",
-   "mentions_last_h": 0,
-   "baseline_h": 1,
-   "z": -0.67,
-   "accel_3h": -1,
-   "category": "BOT_SUSPECT",
-   "chg24": -25.14,
-   "z_price": -5.21,
-   "direction": "down",
-   "fund": 0.0,
-   "hype_confirmed": false,
-   "pump_without_hype": true
   }
  ],
  "whale_alerts": [
   {
    "whale": "elonmusk",
-   "text": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare mirror that is the legacy mainstream pres",
-   "created": "2026-07-27T18:08:21.000Z",
+   "text": "@DuncanPenn @GadSaad @NobelPrize \u2764\ufe0f",
+   "created": "2026-07-27T18:45:50.000Z",
    "coins": []
   },
   {
    "whale": "elonmusk",
-   "text": "RT @MichaelDell: Proud to join @nvidia as a founding member of the Open Secure AI Alliance. Defenders need open tools, collaboration, and t\u2026",
-   "created": "2026-07-27T18:01:37.000Z",
+   "text": "@GadSaad @NobelPrize I am actually going to do something along these lines!",
+   "created": "2026-07-27T18:45:40.000Z",
    "coins": []
   },
   {
    "whale": "elonmusk",
-   "text": "Actual footage \ud83d\ude02 https://t.co/4v4wRuqdIv",
-   "created": "2026-07-27T18:00:12.000Z",
-   "coins": []
-  },
-  {
-   "whale": "elonmusk",
-   "text": "@GadSaad Maybe banning cars would solve the problem? \ud83e\udd37\u200d\u2642\ufe0f",
-   "created": "2026-07-27T17:58:48.000Z",
-   "coins": []
-  },
-  {
-   "whale": "elonmusk",
-   "text": "RT @SenRickScott: No results, NO RECESS.\n\nPass SAVE America NOW! https://t.co/RsG6RiceaF",
-   "created": "2026-07-27T17:57:47.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cz_binance",
-   "text": "@Katherine_XBT \ud83d\ude4f",
-   "created": "2026-07-27T09:27:45.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cz_binance",
-   "text": "See you all tmr, in Manila \ud83c\uddf5\ud83c\udded https://t.co/KOkXZmVoea",
-   "created": "2026-07-26T23:28:21.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cz_binance",
-   "text": "@HHorsley \ud83d\udc4d",
-   "created": "2026-07-26T13:55:40.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cz_binance",
-   "text": "@mars_bnb \ud83d\udc4d",
-   "created": "2026-07-26T13:53:58.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cz_binance",
-   "text": "@HalfHalftrol @hussainzulz @TrustWallet @binance That's one way to do it. Most users already multi-home / overlap.",
-   "created": "2026-07-26T13:41:35.000Z",
-   "coins": []
-  },
-  {
-   "whale": "lookonchain",
-   "text": "July 20\u2013July 26, 2026 #LookonchainWeeklyReport\n\n\ud83d\udfe2 Overview\nStablecoin supply was little changed last week, while DEX trading cooled and institutional activity r",
-   "created": "2026-07-27T15:29:59.000Z",
-   "coins": []
-  },
-  {
-   "whale": "lookonchain",
-   "text": "July 27 Update:\n\n#Bitcoin ETFs:\n1D NetFlow: -3,824 $BTC(-$246.68M)\ud83d\udd34\n7D NetFlow: +253 $BTC(+$16.65M)\ud83d\udfe2\n\n#Ethereum ETFs:\n1D NetFlow: -43,284 $ETH(-$83.23M)\ud83d\udd34\n7D Net",
-   "created": "2026-07-27T14:54:38.000Z",
-   "coins": [
-    "ETHUSDT"
-   ]
-  },
-  {
-   "whale": "lookonchain",
-   "text": "Whales are accumulating $ETH!\n\nWhale 0xf23c just withdrew another 10,444 $ETH($20.47M) from #Binance.\n\nThis whale has withdrawn a total of 30,244 $ETH($57.8M) f",
-   "created": "2026-07-27T14:29:37.000Z",
-   "coins": [
-    "ETHUSDT"
-   ]
-  },
-  {
-   "whale": "lookonchain",
-   "text": "Whale 0xC8b5 is going long on $MU again!\n\nJust 2 days ago, the whale lost $1.2M on a $MU long. \n\nNow the whale has opened a new 3x long on 24,827 $MU ($21.86M) ",
-   "created": "2026-07-27T14:22:14.000Z",
-   "coins": []
-  },
-  {
-   "whale": "lookonchain",
-   "text": "Tom Lee(@fundstrat)'s #Bitmine bought 9,946 $ETH\n($19.38M) last week.\n\n#Bitmine now holds 5,787,414  $ETH ($11.28B), with 4,917,189 $ETH($9.58B) staked.\n\nhttps:",
-   "created": "2026-07-27T12:45:38.000Z",
-   "coins": [
-    "ETHUSDT"
-   ]
-  },
-  {
-   "whale": "whale_alert",
-   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  2,249 $BTC (146,274,103 USD) transferred from Coinbase Institutional to unknown new wallet\n\nhttps://t.co/C9eXxBdgy0",
-   "created": "2026-07-27T17:26:44.000Z",
-   "coins": []
-  },
-  {
-   "whale": "whale_alert",
-   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  2,152 $BTC (139,753,115 USD) transferred from unknown wallet to Coinbase Institutional\n\nhttps://t.co/UPfVS8gkxz",
-   "created": "2026-07-27T17:21:38.000Z",
-   "coins": []
-  },
-  {
-   "whale": "whale_alert",
-   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  2,874 $BTC (185,611,338 USD) transferred from unknown wallet to unknown wallet\n\nhttps://t.co/w0NxFESNnm",
-   "created": "2026-07-27T15:40:27.000Z",
-   "coins": []
-  },
-  {
-   "whale": "whale_alert",
-   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8  872 $BTC (56,361,650 USD) transferred from Coinbase Institutional to unknown new wallet\n\nhttps://t.co/TMAalo87B0",
-   "created": "2026-07-27T15:39:25.000Z",
-   "coins": []
-  },
-  {
-   "whale": "whale_alert",
-   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  1,813 $BTC (117,836,725 USD) transferred from unknown wallet to #Kraken\n\nhttps://t.co/7pLEan3V3e",
-   "created": "2026-07-27T13:35:14.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: Apple surpasses Nvidia to become the world's most valuable company. \n\n$AAPL: $4.92 trillion \n$NVDA: $4.75 trillion https://t.co/ifsx2IXeKn",
-   "created": "2026-07-27T17:57:11.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says interest rate should be lowered.",
-   "created": "2026-07-27T16:40:19.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: Cracker Barrel $CBRL CEO Julie Masino resigns. https://t.co/SnxmOBb4Xc",
-   "created": "2026-07-27T15:52:33.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve is not projected to cut interest rates at this week's FOMC meeting. https://t.co/8lYbxIVkHg",
-   "created": "2026-07-27T15:17:41.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: S&amp;P 500 erases all gains and turns negative. https://t.co/tU8JPu3jgO",
-   "created": "2026-07-27T14:51:49.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cobie",
-   "text": "@bigdsenpai @solo_levelingx Do I have to start again or is my save file good?",
-   "created": "2026-07-27T02:01:40.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cobie",
-   "text": "@solo_levelingx I played a lot of the beta but then I got to an area where you just fell through the ground and died and the game was bugged so now I cba anymor",
-   "created": "2026-07-27T01:01:20.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cobie",
-   "text": "@HeiroCapital @hasufl They don\u2019t need to leave to do that, they could also stay on HL and run their own exchange in theory. They could issue on Lighter and etc ",
-   "created": "2026-07-25T13:13:01.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cobie",
-   "text": "@hasufl Why do they have to leave? They could in theory issue on multiple venues",
-   "created": "2026-07-25T12:57:31.000Z",
-   "coins": []
-  },
-  {
-   "whale": "cobie",
-   "text": "@BeatenMacaque @Credib1eGuy In premarket yes, because you can get pushed over and liqd by one guy, there is no gravity in premarket.",
-   "created": "2026-07-25T05:24:33.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Kaleo",
-   "text": "Summer camp brings new adventures and important conversations for families managing food allergies. Kids with Food Allergies @kfatweets shares practical tips to",
-   "created": "2026-06-22T17:16:44.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Kaleo",
-   "text": "We're in San Diego for #BIO2026.\n \nSchedule a meeting through the BIO Partnering system to explore the Aerio\u2122 Auto-Injector Platform\u2014Kal\u00e9o's drug-delivery platf",
-   "created": "2026-06-19T14:00:29.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Kaleo",
-   "text": "Across the severe allergy landscape, the need for greater awareness and preparedness remains essential. At a time when food allergies are in focus, we\u2019re launch",
-   "created": "2026-05-27T13:06:00.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Kaleo",
-   "text": "This Asthma &amp; Allergy Awareness Month, we\u2019re proud to sponsor premiere events for \u201cMay Contain,\u201d the award-winning docudrama highlighting the real experienc",
-   "created": "2026-05-21T12:12:17.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Kaleo",
-   "text": "Food allergy bullying is more common than many realize &amp; often goes unspoken. As conversations around food allergies continue this May, this episode of The ",
-   "created": "2026-05-19T14:05:11.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Pentosh1",
-   "text": "@wockjones @bubbleboi but the rest, i think are great, + my notional exposure isnt crazy by any means. but just funny to see people flip bear after -50%",
-   "created": "2026-07-27T16:56:10.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Pentosh1",
-   "text": "@wockjones @bubbleboi :) i already sold that one, as said here. was only playing sndk for a bounce\n\nhttps://t.co/Sk8zUY46hg",
-   "created": "2026-07-27T16:55:37.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Pentosh1",
-   "text": "@wockjones @bubbleboi OH NO",
-   "created": "2026-07-27T16:52:40.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Pentosh1",
-   "text": "@bubbleboi i actually bought that day after waiting 6 weeks (see op). Everything is still higher than then. Nothing has made new lows even. All were 30-60% off ",
-   "created": "2026-07-27T16:38:16.000Z",
-   "coins": []
-  },
-  {
-   "whale": "Pentosh1",
-   "text": "@DodgerHODL it can be, i've outlined those paths, but the inital volatility is going to be to the downside when it happens \n\nseverity will be based on a few var",
-   "created": "2026-07-27T16:27:18.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MustStopMurad",
-   "text": "RT @realthigh: When SPX6900 is trading at $69,000, don't come to me asking \"what's the next play?\"\n\nThere is no next play. This is the sing\u2026",
-   "created": "2026-07-27T17:20:51.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MustStopMurad",
-   "text": "RT @Gon92Joseph: We are almost 8.000 Members on the SPX6900 Sub Reddit !\n\nThis is amazing, just like GME did on WallStreetBets, we keep bui\u2026",
-   "created": "2026-07-27T15:11:15.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MustStopMurad",
-   "text": "RT @romancapita: As soon as I bought an aeon something in me shifted \n\nIve just deleted spx6900 from my watchlist on trading view\n\nThere is\u2026",
-   "created": "2026-07-27T13:03:18.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MustStopMurad",
-   "text": "RT @ProjectAeon3333: There's a spark within you, harness it.\n\nFinancial Liberation Is Possible. https://t.co/IbZrwioFK3",
-   "created": "2026-07-27T10:01:28.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MustStopMurad",
-   "text": "RT @maddox00000: Day 400 of DCA\u2019ing $1,000 into #SPX6900 every single day.\n\nSPX is the most perfect idea arising at the most perfect time.\u2026",
-   "created": "2026-07-27T06:00:45.000Z",
-   "coins": []
-  },
-  {
-   "whale": "zachxbt",
-   "text": "@WuBlockchain At what point can we start to blame teams and people who still fall victim to this?\n\nThe same exact method has been used by DPRK for years. \n\nIf y",
-   "created": "2026-07-26T03:48:42.000Z",
-   "coins": []
-  },
-  {
-   "whale": "zachxbt",
-   "text": "@pcfreak30 @cryptobball @knight_XBT @0xJaelle Unfortunately common sense isn\u2019t common",
-   "created": "2026-07-24T09:36:45.000Z",
-   "coins": []
-  },
-  {
-   "whale": "zachxbt",
-   "text": "@sherkhantx @0xJaelle Both yes and no.\n\nIt's unrealistic to expect one person to manage a large DPRK exploit alone (paid or unpaid).\n\nWith a grant, sure someone",
-   "created": "2026-07-24T09:20:36.000Z",
-   "coins": []
-  },
-  {
-   "whale": "zachxbt",
-   "text": "@GabiGiovanni007 @merkle_tree @0xJaelle I prefer to work alone and dislike having the stress of others depending on me to put food on the table for them.",
-   "created": "2026-07-24T08:50:43.000Z",
-   "coins": []
-  },
-  {
-   "whale": "zachxbt",
-   "text": "@somaxbt @merkle_tree @0xJaelle Basic napkin math:\n\n$300M recovered times industry standard  10-12% contingency fee is &gt;$30M in fees if I had instead charged",
-   "created": "2026-07-24T08:48:54.000Z",
-   "coins": []
-  },
-  {
-   "whale": "gem_detecter",
-   "text": "let's start trenching. \n\nlast week we caught:\n$CUPSEY at a $2m bottom before it ran 7x.\n$HBULL at a $300k market cap before it ran 15x.\n$AI and $TILLY, both pul",
-   "created": "2026-07-27T16:02:00.000Z",
-   "coins": []
-  },
-  {
-   "whale": "gem_detecter",
-   "text": "JUST IN: Michael Saylor has \"not bought\" Bitcoin for a month.\n\nStrategy increases its USD Reserve by $525M but skips buying Bitcoin this week.\n\nIn the past week",
-   "created": "2026-07-27T14:46:00.000Z",
-   "coins": []
-  },
-  {
-   "whale": "gem_detecter",
-   "text": "$CUPSEY's move from $2m to $7m was just the initial run.\n\nmy target for $CUPSEY is $50m or higher over the next couple of weeks.\n\nit survived one of the darkest",
-   "created": "2026-07-27T13:44:00.000Z",
-   "coins": []
-  },
-  {
-   "whale": "gem_detecter",
-   "text": "@samecatmeta detected",
-   "created": "2026-07-27T12:59:32.000Z",
-   "coins": []
-  },
-  {
-   "whale": "gem_detecter",
-   "text": "yo, wtf am I missing again? https://t.co/9JigZonVga",
-   "created": "2026-07-27T12:40:21.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MilesDeutscher",
-   "text": "@nikitabier No other place like \ud835\udd4f\nhttps://t.co/PojVUb2w4S",
-   "created": "2026-07-27T17:29:47.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MilesDeutscher",
-   "text": "@theunipcs Good thesis, yes.",
-   "created": "2026-07-27T17:19:59.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MilesDeutscher",
-   "text": "This is genuinely one of the biggest open-weight releases of the year.\n\nMoonshot AI just open-sourced Kimi K3.\n\nThe model weights, full technical report, everyt",
-   "created": "2026-07-27T16:38:18.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MilesDeutscher",
-   "text": "RT @joa_filip: \"It's not you vs. the agents. It's you AND the agents.\"\n\nRead that again.\n\nProbably the most valuable line @milesdeutscher d\u2026",
-   "created": "2026-07-27T14:52:05.000Z",
-   "coins": []
-  },
-  {
-   "whale": "MilesDeutscher",
-   "text": "I turned Claude Opus 5 into my personal Wall Street analyst.\n\nIn this video, I reveal the AI system &amp; how you can replicate it.\n\nWatch now \ud83d\udc49 https://t.co/MC",
-   "created": "2026-07-27T14:43:02.000Z",
+   "text": "@1littlecoder \ud83d\ude02",
+   "created": "2026-07-27T18:44:22.000Z",
    "coins": []
   },
   {
    "whale": "binance",
-   "text": "Why hold USD1 on Binance? \n\nHere's why:\n\ud83d\udd38 Up to 5.56% APR \n\ud83d\udd38 Share of 165M WLFI prize pool\n\ud83d\udd38 1.2x rewards on Margin &amp; Futures balance \n\nDon't miss out \u2192 htt",
-   "created": "2026-07-27T16:01:29.000Z",
-   "coins": []
-  },
-  {
-   "whale": "binance",
-   "text": "Week fully scheduled. https://t.co/tcaOJrGVXu",
-   "created": "2026-07-27T14:31:19.000Z",
-   "coins": []
-  },
-  {
-   "whale": "binance",
-   "text": "24/7, the charts never rest.\n\n$2 billion in bStocks trading volume last weekend. https://t.co/t6AN3qIGRY",
-   "created": "2026-07-27T13:18:08.000Z",
-   "coins": []
-  },
-  {
-   "whale": "binance",
-   "text": "Smart Money Signal Auto-Copy is live! \n\nFollow top traders, hit copy, and their USDT-M futures trades auto-mirror to your account.\n\nReal-time execution. From ju",
-   "created": "2026-07-27T12:29:08.000Z",
-   "coins": []
-  },
-  {
-   "whale": "BinanceFutures",
-   "text": "RT @binance: Smart Money Signal Auto-Copy is live! \n\nFollow top traders, hit copy, and their USDT-M futures trades auto-mirror to your acco\u2026",
-   "created": "2026-07-27T13:19:06.000Z",
-   "coins": []
-  },
-  {
-   "whale": "BinanceFutures",
-   "text": "\ud83d\udd25Join the Asian Equities &amp; ETF Perps Carnival! Trade Asian Equities &amp; ETF perps on Futures and share a total prize pool up to 200,000 USDC! \n\nJoin now \ud83d\udc49",
-   "created": "2026-07-23T15:55:53.000Z",
-   "coins": []
-  },
-  {
-   "whale": "BinanceFutures",
-   "text": "mic drop \ud83c\udfa4 https://t.co/StloTk84Gf",
-   "created": "2026-07-23T03:41:57.000Z",
-   "coins": []
-  },
-  {
-   "whale": "BinanceFutures",
-   "text": "RT @BinanceResearch: Global ETF AUM hit record US$23T in June, and that momentum is showing up in TradFi-Perps too.\n\nETF TradFi-Perps accou\u2026",
-   "created": "2026-07-23T03:39:50.000Z",
-   "coins": []
-  },
-  {
-   "whale": "BinanceFutures",
-   "text": "Trade HKEX Equity Perps Now\ud83d\udd25\n\nHKEX Equity Perps are joining the TradFi Sprint! Enter the final round of the TradFi Sprint and share up to 200,000 USDT in reward",
-   "created": "2026-07-17T15:11:47.000Z",
-   "coins": []
-  },
-  {
-   "whale": "kucoincom",
-   "text": "@dauda_ali10 The journey keeps getting better with the KuFam by our side \ud83d\udc9a",
-   "created": "2026-07-27T17:01:19.000Z",
-   "coins": []
-  },
-  {
-   "whale": "kucoincom",
-   "text": "@Web3WithEthan Nothing like a fresh look to mark nine years \ud83d\ude80",
-   "created": "2026-07-27T17:00:01.000Z",
-   "coins": []
-  },
-  {
-   "whale": "kucoincom",
-   "text": "@PATRICKINNNNNN @tomorrowland Thank you for celebrating with us! \ud83d\udc9a",
-   "created": "2026-07-27T16:52:54.000Z",
-   "coins": []
-  },
-  {
-   "whale": "kucoincom",
-   "text": "@LoyyalNetwork @tomorrowland Thanks for being part of the growth \ud83d\udc9a",
-   "created": "2026-07-27T16:50:09.000Z",
-   "coins": []
-  },
-  {
-   "whale": "kucoincom",
-   "text": "The stages go dark. The memories don't.\n\n@tomorrowland reminded us this weekend that the best experiences move fast, feel borderless, and don't wait around for ",
-   "created": "2026-07-27T15:18:54.000Z",
+   "text": "Guess which generation makes up the largest group of Binance\u2019s stock users.\n\n\ud83d\udc76 Gen Z\n\ud83d\udc68 Millennials\n\ud83d\udc74 Gen X\n\nThe answer: Gen Z, at nearly 44%.\n\nMore than 90% of ",
+   "created": "2026-07-27T18:23:22.000Z",
    "coins": []
   }
  ]
