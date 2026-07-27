@@ -1,0 +1,17 @@
+{
+ "ts": 1790000000000,
+ "budget": {
+  "cost_today": 0,
+  "limit": 3.0
+ },
+ "coins": [
+  {
+   "symbol": "BTCUSDT",
+   "mentions_last_h": 39000,
+   "z": 0.4,
+   "category": "normal"
+  }
+ ],
+ "whale_alerts": [],
+ "note": "init push von der Kimi-Engine \u2014 Br\u00fccke verifiziert"
+}
