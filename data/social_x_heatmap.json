@@ -1,11 +1,25 @@
 {
- "ts": 1785173754437,
+ "ts": 1785175073958,
  "budget": {
-  "cost_today": 0.3,
+  "cost_today": 0.35,
   "limit": 3.0,
-  "reads_today": 60
+  "reads_today": 70
  },
  "coins": [
+  {
+   "symbol": "EULUSDT",
+   "mentions_last_h": 7,
+   "baseline_h": 0,
+   "z": 4.72,
+   "accel_3h": 1,
+   "category": "HYPE",
+   "chg24": -30.45,
+   "z_price": -6.41,
+   "direction": "down",
+   "fund": -0.4469,
+   "hype_confirmed": true,
+   "pump_without_hype": false
+  },
   {
    "symbol": "ESPUSDT",
    "mentions_last_h": 8,
@@ -15,12 +29,54 @@
    "category": "HYPE"
   },
   {
+   "symbol": "BTWUSDT",
+   "mentions_last_h": 17,
+   "baseline_h": 6,
+   "z": 3.71,
+   "accel_3h": 0,
+   "category": "RISING",
+   "chg24": 33.58,
+   "z_price": 8.14,
+   "direction": "up",
+   "fund": 0.0446,
+   "hype_confirmed": true,
+   "pump_without_hype": false
+  },
+  {
    "symbol": "ADAUSDT",
    "mentions_last_h": 61,
    "baseline_h": 27,
    "z": 3.28,
    "accel_3h": 22,
    "category": "RISING"
+  },
+  {
+   "symbol": "AKEUSDT",
+   "mentions_last_h": 24,
+   "baseline_h": 7,
+   "z": 2.29,
+   "accel_3h": 3,
+   "category": "normal",
+   "chg24": 42.74,
+   "z_price": 10.23,
+   "direction": "up",
+   "fund": 0.005,
+   "hype_confirmed": true,
+   "pump_without_hype": false
+  },
+  {
+   "symbol": "TAGUSDT",
+   "mentions_last_h": 123,
+   "baseline_h": 55,
+   "z": 2.29,
+   "accel_3h": 92,
+   "category": "normal",
+   "chg24": 21.64,
+   "z_price": 5.43,
+   "direction": "up",
+   "fund": 0.0509,
+   "hype_confirmed": true,
+   "pump_without_hype": false
   },
   {
    "symbol": "TAOUSDT",
@@ -63,6 +119,20 @@
    "category": "normal"
   },
   {
+   "symbol": "BROCCOLIF3BUSDT",
+   "mentions_last_h": 2,
+   "baseline_h": 0,
+   "z": 1.35,
+   "accel_3h": 1,
+   "category": "normal",
+   "chg24": 30.36,
+   "z_price": 7.41,
+   "direction": "up",
+   "fund": 0.1447,
+   "hype_confirmed": false,
+   "pump_without_hype": false
+  },
+  {
    "symbol": "AAVEUSDT",
    "mentions_last_h": 132,
    "baseline_h": 91,
@@ -71,11 +141,25 @@
    "category": "normal"
   },
   {
+   "symbol": "ONUSDT",
+   "mentions_last_h": 2042,
+   "baseline_h": 1501,
+   "z": 1.26,
+   "accel_3h": 222,
+   "category": "normal",
+   "chg24": 47.8,
+   "z_price": 11.38,
+   "direction": "up",
+   "fund": 0.0504,
+   "hype_confirmed": false,
+   "pump_without_hype": false
+  },
+  {
    "symbol": "ONDOUSDT",
    "mentions_last_h": 415,
    "baseline_h": 258,
    "z": 1.25,
-   "accel_3h": -29,
+   "accel_3h": -28,
    "category": "normal"
   },
   {
@@ -93,6 +177,20 @@
    "z": 0.96,
    "accel_3h": 21,
    "category": "normal"
+  },
+  {
+   "symbol": "BEATUSDT",
+   "mentions_last_h": 16,
+   "baseline_h": 11,
+   "z": 0.84,
+   "accel_3h": 7,
+   "category": "BOT_SUSPECT",
+   "chg24": 27.48,
+   "z_price": 6.76,
+   "direction": "up",
+   "fund": 0.005,
+   "hype_confirmed": false,
+   "pump_without_hype": true
   },
   {
    "symbol": "XRPUSDT",
@@ -143,19 +241,19 @@
    "category": "normal"
   },
   {
+   "symbol": "AVAXUSDT",
+   "mentions_last_h": 13,
+   "baseline_h": 9,
+   "z": 0.54,
+   "accel_3h": -5,
+   "category": "normal"
+  },
+  {
    "symbol": "SUIUSDT",
    "mentions_last_h": 18,
    "baseline_h": 15,
    "z": 0.34,
    "accel_3h": -10,
-   "category": "normal"
-  },
-  {
-   "symbol": "AVAXUSDT",
-   "mentions_last_h": 13,
-   "baseline_h": 10,
-   "z": 0.34,
-   "accel_3h": -5,
    "category": "normal"
   },
   {
@@ -175,6 +273,34 @@
    "category": "normal"
   },
   {
+   "symbol": "SNXXUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 0,
+   "z": 0.0,
+   "accel_3h": 0,
+   "category": "BOT_SUSPECT",
+   "chg24": -25.14,
+   "z_price": -5.21,
+   "direction": "down",
+   "fund": 0.0,
+   "hype_confirmed": false,
+   "pump_without_hype": true
+  },
+  {
+   "symbol": "BULLAUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 0,
+   "z": 0.0,
+   "accel_3h": 2,
+   "category": "BOT_SUSPECT",
+   "chg24": 18.58,
+   "z_price": 4.73,
+   "direction": "up",
+   "fund": 0.0776,
+   "hype_confirmed": false,
+   "pump_without_hype": true
+  },
+  {
    "symbol": "SNXUSDT",
    "mentions_last_h": 0,
    "baseline_h": 0,
@@ -183,19 +309,19 @@
    "category": "normal"
   },
   {
+   "symbol": "LTCUSDT",
+   "mentions_last_h": 8,
+   "baseline_h": 9,
+   "z": -0.17,
+   "accel_3h": -1,
+   "category": "normal"
+  },
+  {
    "symbol": "INJUSDT",
    "mentions_last_h": 23,
    "baseline_h": 25,
    "z": -0.19,
    "accel_3h": -14,
-   "category": "normal"
-  },
-  {
-   "symbol": "LTCUSDT",
-   "mentions_last_h": 8,
-   "baseline_h": 9,
-   "z": -0.22,
-   "accel_3h": -1,
    "category": "normal"
   },
   {
@@ -213,6 +339,20 @@
    "z": -0.42,
    "accel_3h": -19,
    "category": "normal"
+  },
+  {
+   "symbol": "DEXEUSDT",
+   "mentions_last_h": 11,
+   "baseline_h": 17,
+   "z": -0.45,
+   "accel_3h": 0,
+   "category": "BOT_SUSPECT",
+   "chg24": -27.83,
+   "z_price": -5.82,
+   "direction": "down",
+   "fund": -0.1897,
+   "hype_confirmed": false,
+   "pump_without_hype": true
   },
   {
    "symbol": "HYPEUSDT",
@@ -250,39 +390,26 @@
  "whale_alerts": [
   {
    "whale": "elonmusk",
-   "text": "True https://t.co/jZu84NbNDj",
-   "created": "2026-07-27T16:42:30.000Z",
+   "text": "\u201cNot having symptoms is one of the symptoms\u201d \ud83d\ude44 \ud83e\udd26\u200d\u2642\ufe0f\ud83e\udd21",
+   "created": "2026-07-27T17:57:13.000Z",
    "coins": []
   },
   {
    "whale": "elonmusk",
-   "text": "RT @cb_doge: BREAKING: President Javier Milei announced Starlink will connect 6,000 rural schools across Argentina. \ud83c\udde6\ud83c\uddf7\n\n\"Thanks to Starlink\u2026",
-   "created": "2026-07-27T16:41:47.000Z",
-   "coins": [
-    "DOGEUSDT",
-    "LINKUSDT"
-   ]
+   "text": "@GadSaad Yeah",
+   "created": "2026-07-27T17:53:35.000Z",
+   "coins": []
   },
   {
    "whale": "elonmusk",
-   "text": "RT @BillAckman: Worth a read. Bernard Arnault responds to the press. \n\n@X has shifted the balance of power away from the media and back to\u2026",
-   "created": "2026-07-27T16:39:44.000Z",
-   "coins": [
-    "ESPUSDT"
-   ]
+   "text": "This is so funny \ud83e\udd23\ud83e\udd23 https://t.co/gEvYbrErNT",
+   "created": "2026-07-27T17:50:15.000Z",
+   "coins": []
   },
   {
    "whale": "elonmusk",
-   "text": "RT @BernardArnault: J\u2019ai \u00e9t\u00e9 tr\u00e8s sensible aux nombreux messages que vous m\u2019avez adress\u00e9s \u00e0 la suite de ma lettre ouverte au Monde.\n\nJe ten\u2026",
-   "created": "2026-07-27T15:38:01.000Z",
-   "coins": [
-    "SUIUSDT"
-   ]
-  },
-  {
-   "whale": "elonmusk",
-   "text": "Fauci smelled it and he also dealt it https://t.co/2K2oGmogO2",
-   "created": "2026-07-27T15:37:19.000Z",
+   "text": "RT @nikitabier: In the last couple weeks, X has been joined by:\n\nMark Zuckerberg\nJensen Huang\nDenny\u2019s\nBernard Arnault\n\nWelcome to the globa\u2026",
+   "created": "2026-07-27T17:47:11.000Z",
    "coins": []
   },
   {
@@ -385,6 +512,12 @@
   },
   {
    "whale": "WatcherGuru",
+   "text": "JUST IN: Apple surpasses Nvidia to become the world's most valuable company. \n\n$AAPL: $4.92 trillion \n$NVDA: $4.75 trillion https://t.co/ifsx2IXeKn",
+   "created": "2026-07-27T17:57:11.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
    "text": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says interest rate should be lowered.",
    "created": "2026-07-27T16:40:19.000Z",
    "coins": []
@@ -407,12 +540,6 @@
    "whale": "WatcherGuru",
    "text": "JUST IN: S&amp;P 500 erases all gains and turns negative. https://t.co/tU8JPu3jgO",
    "created": "2026-07-27T14:51:49.000Z",
-   "coins": []
-  },
-  {
-   "whale": "WatcherGuru",
-   "text": "JUST IN: Michael Saylor's 'Strategy' has not purchased any Bitcoin over the past month. https://t.co/fZlArKrEWa",
-   "created": "2026-07-27T14:41:22.000Z",
    "coins": []
   },
   {
