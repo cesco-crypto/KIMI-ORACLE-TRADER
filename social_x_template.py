@@ -239,4 +239,54 @@ def discovery_cycle():
             an = analyze(sym, pts)
             if an:
                 an.update(chg24=a["chg24"], z_price=a["z"], direction=a["dir"],
-                          fu
+                          fund=a["fund"], hype_confirmed=an["z"] >= 2.0,
+                          pump_without_hype=an["z"] < 1.0)
+                if an["pump_without_hype"]:
+                    an["category"] = "BOT_SUSPECT"
+                results.append(an)
+                log(f"  {sym}: Preis z{a['z_price']:+.1f} | X z{an['z']:+.1f} | {an['category']}"
+                    + (" ⚠PUMP-OHNE-HYPE" if an["pump_without_hype"] else ""))
+        time.sleep(0.8)
+    return results
+
+
+def cycle():
+    if not budget_ok():
+        return
+    stats, alerts = [], []
+    discovery = discovery_cycle()
+    stats.extend(discovery)
+    for q, sym in COINS:
+        if any(s["symbol"] == sym for s in stats):
+            continue  # schon per Discovery geprueft
+        pts = coin_counts(q)
+        if pts:
+            a = analyze(sym, pts)
+            if a:
+                stats.append(a)
+        time.sleep(0.8)
+    log(f"Counts: {len(stats)} Coins | Budget: ${state['cost_today']:.2f}")
+    if state["reads_today"] % 2 == 0:  # Whale-Poll jeden 2. Counts-Run
+        wa = whale_poll()
+        alerts.extend(wa)
+        for w in wa:
+            log(f"⚡ WHALE: @{w['whale']} -> {w['coins']} | {w['text'][:80]}")
+    write_heatmap(stats, alerts)
+    top = [c for c in stats if c["z"] >= ALERT_Z]
+    for c in top:
+        log(f"🔥 {c['category']:7s} {c['symbol']:14s} z={c['z']:+.1f} ({c['mentions_last_h']}/h vs Basis {c['baseline_h']}/h)")
+
+
+def main():
+    log("=== SOCIAL_X v1 gestartet ===")
+    log(f"Coins: {len(COINS)} | Whales: {len(WHALES)} | Budget: ${DAILY_BUDGET_USD}/Tag | Intervall: {CADENCE_MIN}min")
+    while True:
+        try:
+            cycle()
+        except Exception as e:
+            log("CYCLE-ERR:", type(e).__name__, str(e)[:150])
+        time.sleep(CADENCE_MIN * 60)
+
+
+if __name__ == "__main__":
+    main()
