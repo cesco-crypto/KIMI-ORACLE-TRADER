@@ -1,17 +1,25 @@
 {
- "ts": 1785242087566,
+ "ts": 1785245740388,
  "budget": {
-  "cost_today": 2.385,
+  "cost_today": 2.595,
   "limit": 3.0,
-  "reads_today": 477
+  "reads_today": 519
  },
  "coins": [
   {
+   "symbol": "CAKEUSDT",
+   "mentions_last_h": 82,
+   "baseline_h": 15,
+   "z": 5.65,
+   "accel_3h": 51,
+   "category": "HYPE"
+  },
+  {
    "symbol": "BTWUSDT",
-   "mentions_last_h": 13,
+   "mentions_last_h": 9,
    "baseline_h": 1,
-   "z": 8,
-   "accel_3h": -8,
+   "z": 5.4,
+   "accel_3h": -2,
    "category": "HYPE",
    "chg24": 33.58,
    "z_price": 8.14,
@@ -21,20 +29,12 @@
    "pump_without_hype": false
   },
   {
-   "symbol": "CAKEUSDT",
-   "mentions_last_h": 73,
-   "baseline_h": 15,
-   "z": 4.89,
-   "accel_3h": 31,
-   "category": "HYPE"
-  },
-  {
    "symbol": "ONUSDT",
-   "mentions_last_h": 28,
+   "mentions_last_h": 31,
    "baseline_h": 7,
-   "z": 3.54,
-   "accel_3h": 5,
-   "category": "RISING",
+   "z": 4.05,
+   "accel_3h": 6,
+   "category": "HYPE",
    "chg24": 47.8,
    "z_price": 11.38,
    "direction": "up",
@@ -43,26 +43,44 @@
    "pump_without_hype": false
   },
   {
-   "symbol": "BEATUSDT",
-   "mentions_last_h": 28,
-   "baseline_h": 7,
-   "z": 3.54,
-   "accel_3h": 13,
-   "category": "RISING",
-   "chg24": 27.48,
-   "z_price": 6.76,
-   "direction": "up",
-   "fund": 0.005,
-   "hype_confirmed": true,
-   "pump_without_hype": false
+   "symbol": "HYPEUSDT",
+   "mentions_last_h": 410,
+   "baseline_h": 230,
+   "z": 2.76,
+   "accel_3h": 39,
+   "category": "RISING"
+  },
+  {
+   "symbol": "LTCUSDT",
+   "mentions_last_h": 176,
+   "baseline_h": 88,
+   "z": 2.47,
+   "accel_3h": 36,
+   "category": "normal"
+  },
+  {
+   "symbol": "TRXUSDT",
+   "mentions_last_h": 1082,
+   "baseline_h": 630,
+   "z": 2.38,
+   "accel_3h": 114,
+   "category": "normal"
+  },
+  {
+   "symbol": "UNIUSDT",
+   "mentions_last_h": 220,
+   "baseline_h": 124,
+   "z": 2.16,
+   "accel_3h": 20,
+   "category": "normal"
   },
   {
    "symbol": "EULUSDT",
-   "mentions_last_h": 12,
+   "mentions_last_h": 8,
    "baseline_h": 2,
-   "z": 3.37,
+   "z": 2.02,
    "accel_3h": -1,
-   "category": "RISING",
+   "category": "normal",
    "chg24": -30.45,
    "z_price": -6.41,
    "direction": "down",
@@ -71,167 +89,201 @@
    "pump_without_hype": false
   },
   {
-   "symbol": "BULLAUSDT",
-   "mentions_last_h": 4,
-   "baseline_h": 0,
-   "z": 2.7,
-   "accel_3h": -2,
-   "category": "RISING",
-   "chg24": 18.58,
-   "z_price": 4.73,
-   "direction": "up",
-   "fund": 0.0776,
-   "hype_confirmed": true,
-   "pump_without_hype": false
-  },
-  {
-   "symbol": "NEARUSDT",
-   "mentions_last_h": 20,
-   "baseline_h": 8,
-   "z": 2.7,
-   "accel_3h": 2,
-   "category": "RISING"
-  },
-  {
-   "symbol": "TRXUSDT",
-   "mentions_last_h": 1093,
-   "baseline_h": 630,
-   "z": 2.46,
-   "accel_3h": 362,
-   "category": "normal"
-  },
-  {
-   "symbol": "ESPUSDT",
-   "mentions_last_h": 4,
-   "baseline_h": 1,
-   "z": 2.02,
-   "accel_3h": 1,
-   "category": "normal"
-  },
-  {
-   "symbol": "LTCUSDT",
-   "mentions_last_h": 149,
-   "baseline_h": 88,
-   "z": 1.79,
-   "accel_3h": 38,
-   "category": "normal"
-  },
-  {
-   "symbol": "ARBUSDT",
-   "mentions_last_h": 150,
-   "baseline_h": 84,
-   "z": 1.54,
-   "accel_3h": 89,
-   "category": "normal"
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "mentions_last_h": 330,
-   "baseline_h": 230,
-   "z": 1.53,
-   "accel_3h": 28,
-   "category": "normal"
-  },
-  {
    "symbol": "TAGUSDT",
-   "mentions_last_h": 4,
+   "mentions_last_h": 5,
    "baseline_h": 2,
-   "z": 1.35,
-   "accel_3h": -2,
+   "z": 2.02,
+   "accel_3h": -1,
    "category": "normal",
    "chg24": 21.64,
    "z_price": 5.43,
    "direction": "up",
    "fund": 0.0509,
+   "hype_confirmed": true,
+   "pump_without_hype": false
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "mentions_last_h": 303,
+   "baseline_h": 184,
+   "z": 2.01,
+   "accel_3h": -45,
+   "category": "normal"
+  },
+  {
+   "symbol": "BEATUSDT",
+   "mentions_last_h": 18,
+   "baseline_h": 7,
+   "z": 1.85,
+   "accel_3h": 1,
+   "category": "normal",
+   "chg24": 27.48,
+   "z_price": 6.76,
+   "direction": "up",
+   "fund": 0.005,
    "hype_confirmed": false,
    "pump_without_hype": false
   },
   {
-   "symbol": "SNXUSDT",
+   "symbol": "SNXXUSDT",
+   "mentions_last_h": 3,
+   "baseline_h": 1,
+   "z": 1.35,
+   "accel_3h": -21,
+   "category": "normal",
+   "chg24": -25.14,
+   "z_price": -5.21,
+   "direction": "down",
+   "fund": 0.0,
+   "hype_confirmed": false,
+   "pump_without_hype": false
+  },
+  {
+   "symbol": "BULLAUSDT",
    "mentions_last_h": 2,
    "baseline_h": 0,
    "z": 1.35,
    "accel_3h": 0,
-   "category": "normal"
-  },
-  {
-   "symbol": "BCHUSDT",
-   "mentions_last_h": 8,
-   "baseline_h": 4,
-   "z": 1.35,
-   "accel_3h": 4,
-   "category": "normal"
-  },
-  {
-   "symbol": "ETHUSDT",
-   "mentions_last_h": 1424,
-   "baseline_h": 1001,
-   "z": 1.31,
-   "accel_3h": 112,
-   "category": "normal"
-  },
-  {
-   "symbol": "FARTCOINUSDT",
-   "mentions_last_h": 13,
-   "baseline_h": 7,
-   "z": 1.01,
-   "accel_3h": 10,
-   "category": "normal"
+   "category": "normal",
+   "chg24": 18.58,
+   "z_price": 4.73,
+   "direction": "up",
+   "fund": 0.0776,
+   "hype_confirmed": false,
+   "pump_without_hype": false
   },
   {
    "symbol": "SOLUSDT",
-   "mentions_last_h": 4761,
-   "baseline_h": 3808,
+   "mentions_last_h": 5197,
+   "baseline_h": 3807,
+   "z": 1.28,
+   "accel_3h": 1028,
+   "category": "normal"
+  },
+  {
+   "symbol": "AKEUSDT",
+   "mentions_last_h": 38,
+   "baseline_h": 20,
+   "z": 1.1,
+   "accel_3h": 5,
+   "category": "normal",
+   "chg24": 42.74,
+   "z_price": 10.23,
+   "direction": "up",
+   "fund": 0.005,
+   "hype_confirmed": false,
+   "pump_without_hype": false
+  },
+  {
+   "symbol": "ARBUSDT",
+   "mentions_last_h": 127,
+   "baseline_h": 84,
+   "z": 1.0,
+   "accel_3h": 91,
+   "category": "normal"
+  },
+  {
+   "symbol": "WIFUSDT",
+   "mentions_last_h": 14,
+   "baseline_h": 10,
+   "z": 0.9,
+   "accel_3h": -3,
+   "category": "normal"
+  },
+  {
+   "symbol": "KAITOUSDT",
+   "mentions_last_h": 22,
+   "baseline_h": 13,
    "z": 0.87,
-   "accel_3h": 603,
-   "category": "normal"
-  },
-  {
-   "symbol": "INJUSDT",
-   "mentions_last_h": 197,
-   "baseline_h": 163,
-   "z": 0.67,
-   "accel_3h": -11,
-   "category": "normal"
-  },
-  {
-   "symbol": "SUIUSDT",
-   "mentions_last_h": 30,
-   "baseline_h": 23,
-   "z": 0.59,
-   "accel_3h": -26,
-   "category": "normal"
-  },
-  {
-   "symbol": "TAOUSDT",
-   "mentions_last_h": 85,
-   "baseline_h": 74,
-   "z": 0.37,
-   "accel_3h": -5,
-   "category": "normal"
-  },
-  {
-   "symbol": "XRPUSDT",
-   "mentions_last_h": 593,
-   "baseline_h": 549,
-   "z": 0.27,
-   "accel_3h": 219,
-   "category": "normal"
-  },
-  {
-   "symbol": "VIRTUALUSDT",
-   "mentions_last_h": 7,
-   "baseline_h": 6,
-   "z": 0.22,
    "accel_3h": -1,
    "category": "normal"
   },
   {
+   "symbol": "SUIUSDT",
+   "mentions_last_h": 33,
+   "baseline_h": 23,
+   "z": 0.84,
+   "accel_3h": -13,
+   "category": "normal"
+  },
+  {
+   "symbol": "FARTCOINUSDT",
+   "mentions_last_h": 12,
+   "baseline_h": 7,
+   "z": 0.84,
+   "accel_3h": -2,
+   "category": "normal"
+  },
+  {
    "symbol": "ADAUSDT",
-   "mentions_last_h": 145,
+   "mentions_last_h": 183,
    "baseline_h": 143,
-   "z": 0.04,
-   "accel_3h": -11,
+   "z": 0.75,
+   "accel_3h": 19,
+   "category": "normal"
+  },
+  {
+   "symbol": "BCHUSDT",
+   "mentions_last_h": 6,
+   "baseline_h": 4,
+   "z": 0.67,
+   "accel_3h": 1,
+   "category": "normal"
+  },
+  {
+   "symbol": "ETHUSDT",
+   "mentions_last_h": 1185,
+   "baseline_h": 1001,
+   "z": 0.57,
+   "accel_3h": 87,
+   "category": "normal"
+  },
+  {
+   "symbol": "NEARUSDT",
+   "mentions_last_h": 10,
+   "baseline_h": 8,
+   "z": 0.45,
+   "accel_3h": 0,
+   "category": "normal"
+  },
+  {
+   "symbol": "XRPUSDT",
+   "mentions_last_h": 617,
+   "baseline_h": 549,
+   "z": 0.41,
+   "accel_3h": 156,
+   "category": "normal"
+  },
+  {
+   "symbol": "INJUSDT",
+   "mentions_last_h": 182,
+   "baseline_h": 163,
+   "z": 0.38,
+   "accel_3h": -9,
+   "category": "normal"
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "mentions_last_h": 139,
+   "baseline_h": 129,
+   "z": 0.19,
+   "accel_3h": 25,
+   "category": "normal"
+  },
+  {
+   "symbol": "TAOUSDT",
+   "mentions_last_h": 76,
+   "baseline_h": 74,
+   "z": 0.07,
+   "accel_3h": -42,
+   "category": "normal"
+  },
+  {
+   "symbol": "BANKUSDT",
+   "mentions_last_h": 62,
+   "baseline_h": 60,
+   "z": 0.05,
+   "accel_3h": 2,
    "category": "normal"
   },
   {
@@ -249,127 +301,75 @@
    "pump_without_hype": true
   },
   {
-   "symbol": "SNXXUSDT",
-   "mentions_last_h": 1,
-   "baseline_h": 1,
-   "z": 0.0,
-   "accel_3h": 17,
-   "category": "BOT_SUSPECT",
-   "chg24": -25.14,
-   "z_price": -5.21,
-   "direction": "down",
-   "fund": 0.0,
-   "hype_confirmed": false,
-   "pump_without_hype": true
-  },
-  {
    "symbol": "AAVEUSDT",
    "mentions_last_h": 9,
    "baseline_h": 9,
    "z": 0.0,
-   "accel_3h": -5,
+   "accel_3h": -8,
    "category": "normal"
   },
   {
-   "symbol": "DOGEUSDT",
-   "mentions_last_h": 181,
-   "baseline_h": 184,
-   "z": -0.05,
-   "accel_3h": -102,
-   "category": "normal"
-  },
-  {
-   "symbol": "UNIUSDT",
-   "mentions_last_h": 118,
-   "baseline_h": 125,
-   "z": -0.15,
-   "accel_3h": -34,
-   "category": "normal"
-  },
-  {
-   "symbol": "ONDOUSDT",
-   "mentions_last_h": 24,
-   "baseline_h": 29,
-   "z": -0.2,
-   "accel_3h": -18,
-   "category": "normal"
-  },
-  {
-   "symbol": "1000PEPEUSDT",
-   "mentions_last_h": 73,
-   "baseline_h": 83,
-   "z": -0.22,
-   "accel_3h": 21,
-   "category": "normal"
-  },
-  {
-   "symbol": "BANKUSDT",
-   "mentions_last_h": 49,
-   "baseline_h": 60,
-   "z": -0.25,
-   "accel_3h": 7,
-   "category": "normal"
-  },
-  {
-   "symbol": "AVAXUSDT",
-   "mentions_last_h": 116,
-   "baseline_h": 130,
-   "z": -0.27,
-   "accel_3h": -9,
-   "category": "normal"
-  },
-  {
-   "symbol": "ENAUSDT",
-   "mentions_last_h": 14,
-   "baseline_h": 17,
-   "z": -0.29,
-   "accel_3h": 28,
+   "symbol": "SNXUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 0,
+   "z": 0.0,
+   "accel_3h": 1,
    "category": "normal"
   },
   {
    "symbol": "LAUSDT",
-   "mentions_last_h": 2,
+   "mentions_last_h": 3,
    "baseline_h": 3,
-   "z": -0.34,
+   "z": 0.0,
+   "accel_3h": -4,
+   "category": "normal"
+  },
+  {
+   "symbol": "ONDOUSDT",
+   "mentions_last_h": 26,
+   "baseline_h": 29,
+   "z": -0.13,
    "accel_3h": 0,
    "category": "normal"
   },
   {
-   "symbol": "LINKUSDT",
-   "mentions_last_h": 79,
-   "baseline_h": 96,
-   "z": -0.42,
-   "accel_3h": 3,
+   "symbol": "ENAUSDT",
+   "mentions_last_h": 15,
+   "baseline_h": 17,
+   "z": -0.19,
+   "accel_3h": -5,
    "category": "normal"
   },
   {
-   "symbol": "AKEUSDT",
-   "mentions_last_h": 14,
-   "baseline_h": 21,
-   "z": -0.43,
-   "accel_3h": -5,
-   "category": "BOT_SUSPECT",
-   "chg24": 42.74,
-   "z_price": 10.23,
-   "direction": "up",
-   "fund": 0.005,
-   "hype_confirmed": false,
-   "pump_without_hype": true
+   "symbol": "1000PEPEUSDT",
+   "mentions_last_h": 67,
+   "baseline_h": 83,
+   "z": -0.36,
+   "accel_3h": -3,
+   "category": "normal"
   },
   {
-   "symbol": "WLDUSDT",
-   "mentions_last_h": 9,
-   "baseline_h": 15,
-   "z": -0.58,
-   "accel_3h": 14,
+   "symbol": "VIRTUALUSDT",
+   "mentions_last_h": 4,
+   "baseline_h": 6,
+   "z": -0.45,
+   "accel_3h": 1,
+   "category": "normal"
+  },
+  {
+   "symbol": "LINKUSDT",
+   "mentions_last_h": 73,
+   "baseline_h": 95,
+   "z": -0.57,
+   "accel_3h": 12,
    "category": "normal"
   },
   {
    "symbol": "DEXEUSDT",
-   "mentions_last_h": 22,
-   "baseline_h": 41,
+   "mentions_last_h": 21,
+   "baseline_h": 40,
    "z": -0.61,
-   "accel_3h": 2,
+   "accel_3h": -2,
    "category": "BOT_SUSPECT",
    "chg24": -27.83,
    "z_price": -5.82,
@@ -379,27 +379,27 @@
    "pump_without_hype": true
   },
   {
-   "symbol": "KAITOUSDT",
-   "mentions_last_h": 5,
-   "baseline_h": 13,
-   "z": -0.77,
-   "accel_3h": -3,
-   "category": "normal"
-  },
-  {
-   "symbol": "WIFUSDT",
-   "mentions_last_h": 6,
-   "baseline_h": 10,
-   "z": -0.9,
-   "accel_3h": -5,
+   "symbol": "ESPUSDT",
+   "mentions_last_h": 0,
+   "baseline_h": 1,
+   "z": -0.67,
+   "accel_3h": -2,
    "category": "normal"
   },
   {
    "symbol": "PUMPUSDT",
-   "mentions_last_h": 57,
+   "mentions_last_h": 90,
    "baseline_h": 121,
-   "z": -1.39,
-   "accel_3h": -1,
+   "z": -0.7,
+   "accel_3h": 0,
+   "category": "normal"
+  },
+  {
+   "symbol": "WLDUSDT",
+   "mentions_last_h": 7,
+   "baseline_h": 15,
+   "z": -0.9,
+   "accel_3h": -9,
    "category": "normal"
   }
  ],
