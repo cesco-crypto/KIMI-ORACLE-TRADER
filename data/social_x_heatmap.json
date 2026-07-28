@@ -1,17 +1,17 @@
 {
- "ts": 1785194105714,
+ "ts": 1785197762638,
  "budget": {
-  "cost_today": 1.485,
+  "cost_today": 0.285,
   "limit": 3.0,
-  "reads_today": 297
+  "reads_today": 57
  },
  "coins": [
   {
    "symbol": "BTWUSDT",
-   "mentions_last_h": 12,
+   "mentions_last_h": 7,
    "baseline_h": 1,
-   "z": 7.42,
-   "accel_3h": -9,
+   "z": 4.05,
+   "accel_3h": -3,
    "category": "HYPE",
    "chg24": 33.58,
    "z_price": 8.14,
@@ -21,12 +21,20 @@
    "pump_without_hype": false
   },
   {
+   "symbol": "ARBUSDT",
+   "mentions_last_h": 244,
+   "baseline_h": 84,
+   "z": 3.6,
+   "accel_3h": -11,
+   "category": "RISING"
+  },
+  {
    "symbol": "EULUSDT",
-   "mentions_last_h": 9,
+   "mentions_last_h": 6,
    "baseline_h": 1,
-   "z": 5.4,
+   "z": 3.37,
    "accel_3h": -2,
-   "category": "HYPE",
+   "category": "RISING",
    "chg24": -30.45,
    "z_price": -6.41,
    "direction": "down",
@@ -35,28 +43,12 @@
    "pump_without_hype": false
   },
   {
-   "symbol": "LAUSDT",
-   "mentions_last_h": 17,
-   "baseline_h": 3,
-   "z": 4.72,
-   "accel_3h": -11,
-   "category": "HYPE"
-  },
-  {
-   "symbol": "DOGEUSDT",
-   "mentions_last_h": 405,
-   "baseline_h": 178,
-   "z": 3.73,
-   "accel_3h": 102,
-   "category": "RISING"
-  },
-  {
    "symbol": "BEATUSDT",
-   "mentions_last_h": 20,
+   "mentions_last_h": 16,
    "baseline_h": 5,
-   "z": 3.37,
-   "accel_3h": -5,
-   "category": "RISING",
+   "z": 2.47,
+   "accel_3h": -8,
+   "category": "normal",
    "chg24": 27.48,
    "z_price": 6.76,
    "direction": "up",
@@ -66,62 +58,46 @@
   },
   {
    "symbol": "ESPUSDT",
-   "mentions_last_h": 5,
-   "baseline_h": 0,
-   "z": 3.37,
-   "accel_3h": -3,
-   "category": "RISING"
+   "mentions_last_h": 4,
+   "baseline_h": 1,
+   "z": 2.02,
+   "accel_3h": -1,
+   "category": "normal"
   },
   {
    "symbol": "TAGUSDT",
-   "mentions_last_h": 5,
+   "mentions_last_h": 3,
    "baseline_h": 1,
-   "z": 2.7,
-   "accel_3h": -4,
-   "category": "RISING",
+   "z": 1.35,
+   "accel_3h": -2,
+   "category": "normal",
    "chg24": 21.64,
    "z_price": 5.43,
    "direction": "up",
    "fund": 0.0509,
-   "hype_confirmed": true,
+   "hype_confirmed": false,
    "pump_without_hype": false
   },
   {
    "symbol": "SNXXUSDT",
-   "mentions_last_h": 5,
+   "mentions_last_h": 2,
    "baseline_h": 1,
-   "z": 2.7,
+   "z": 0.67,
    "accel_3h": 1,
-   "category": "RISING",
+   "category": "BOT_SUSPECT",
    "chg24": -25.14,
    "z_price": -5.21,
    "direction": "down",
    "fund": 0.0,
-   "hype_confirmed": true,
-   "pump_without_hype": false
-  },
-  {
-   "symbol": "KAITOUSDT",
-   "mentions_last_h": 24,
-   "baseline_h": 12,
-   "z": 1.16,
-   "accel_3h": 0,
-   "category": "normal"
-  },
-  {
-   "symbol": "AAVEUSDT",
-   "mentions_last_h": 17,
-   "baseline_h": 10,
-   "z": 0.79,
-   "accel_3h": -9,
-   "category": "normal"
+   "hype_confirmed": false,
+   "pump_without_hype": true
   },
   {
    "symbol": "BULLAUSDT",
    "mentions_last_h": 1,
    "baseline_h": 0,
    "z": 0.67,
-   "accel_3h": -2,
+   "accel_3h": -1,
    "category": "BOT_SUSPECT",
    "chg24": 18.58,
    "z_price": 4.73,
@@ -131,59 +107,27 @@
    "pump_without_hype": true
   },
   {
-   "symbol": "1000PEPEUSDT",
-   "mentions_last_h": 101,
-   "baseline_h": 80,
-   "z": 0.46,
-   "accel_3h": 37,
-   "category": "normal"
-  },
-  {
-   "symbol": "UNIUSDT",
-   "mentions_last_h": 145,
-   "baseline_h": 125,
-   "z": 0.41,
-   "accel_3h": -3,
-   "category": "normal"
-  },
-  {
-   "symbol": "BANKUSDT",
-   "mentions_last_h": 76,
-   "baseline_h": 61,
-   "z": 0.33,
-   "accel_3h": -33,
-   "category": "normal"
-  },
-  {
    "symbol": "NEARUSDT",
-   "mentions_last_h": 9,
+   "mentions_last_h": 11,
    "baseline_h": 8,
-   "z": 0.22,
-   "accel_3h": 5,
+   "z": 0.67,
+   "accel_3h": 3,
    "category": "normal"
   },
   {
-   "symbol": "ARBUSDT",
-   "mentions_last_h": 93,
-   "baseline_h": 84,
-   "z": 0.2,
-   "accel_3h": 7,
-   "category": "normal"
-  },
-  {
-   "symbol": "ADAUSDT",
-   "mentions_last_h": 155,
-   "baseline_h": 150,
-   "z": 0.08,
-   "accel_3h": -62,
+   "symbol": "DOGEUSDT",
+   "mentions_last_h": 214,
+   "baseline_h": 179,
+   "z": 0.58,
+   "accel_3h": 93,
    "category": "normal"
   },
   {
    "symbol": "ONUSDT",
-   "mentions_last_h": 6,
+   "mentions_last_h": 9,
    "baseline_h": 6,
-   "z": 0.0,
-   "accel_3h": -6,
+   "z": 0.51,
+   "accel_3h": -3,
    "category": "BOT_SUSPECT",
    "chg24": 47.8,
    "z_price": 11.38,
@@ -193,18 +137,28 @@
    "pump_without_hype": true
   },
   {
-   "symbol": "AKEUSDT",
-   "mentions_last_h": 22,
-   "baseline_h": 22,
-   "z": 0.0,
-   "accel_3h": -5,
-   "category": "BOT_SUSPECT",
-   "chg24": 42.74,
-   "z_price": 10.23,
-   "direction": "up",
-   "fund": 0.005,
-   "hype_confirmed": false,
-   "pump_without_hype": true
+   "symbol": "WIFUSDT",
+   "mentions_last_h": 14,
+   "baseline_h": 11,
+   "z": 0.51,
+   "accel_3h": 3,
+   "category": "normal"
+  },
+  {
+   "symbol": "LAUSDT",
+   "mentions_last_h": 6,
+   "baseline_h": 4,
+   "z": 0.45,
+   "accel_3h": -2,
+   "category": "normal"
+  },
+  {
+   "symbol": "KAITOUSDT",
+   "mentions_last_h": 13,
+   "baseline_h": 12,
+   "z": 0.1,
+   "accel_3h": 5,
+   "category": "normal"
   },
   {
    "symbol": "BROCCOLIF3BUSDT",
@@ -221,11 +175,19 @@
    "pump_without_hype": true
   },
   {
+   "symbol": "PUMPUSDT",
+   "mentions_last_h": 123,
+   "baseline_h": 123,
+   "z": 0.0,
+   "accel_3h": -11,
+   "category": "normal"
+  },
+  {
    "symbol": "FARTCOINUSDT",
    "mentions_last_h": 8,
    "baseline_h": 8,
    "z": 0.0,
-   "accel_3h": -1,
+   "accel_3h": -3,
    "category": "normal"
   },
   {
@@ -237,121 +199,103 @@
    "category": "normal"
   },
   {
-   "symbol": "LTCUSDT",
-   "mentions_last_h": 89,
-   "baseline_h": 91,
-   "z": -0.06,
-   "accel_3h": 10,
+   "symbol": "BCHUSDT",
+   "mentions_last_h": 4,
+   "baseline_h": 4,
+   "z": 0.0,
+   "accel_3h": -5,
    "category": "normal"
   },
   {
-   "symbol": "XRPUSDT",
-   "mentions_last_h": 535,
-   "baseline_h": 556,
-   "z": -0.13,
-   "accel_3h": -69,
+   "symbol": "ADAUSDT",
+   "mentions_last_h": 147,
+   "baseline_h": 150,
+   "z": -0.05,
+   "accel_3h": -66,
    "category": "normal"
   },
   {
-   "symbol": "INJUSDT",
-   "mentions_last_h": 158,
-   "baseline_h": 166,
-   "z": -0.15,
-   "accel_3h": -38,
-   "category": "normal"
-  },
-  {
-   "symbol": "ETHUSDT",
-   "mentions_last_h": 957,
-   "baseline_h": 1008,
-   "z": -0.15,
-   "accel_3h": -252,
-   "category": "normal"
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "mentions_last_h": 216,
-   "baseline_h": 227,
-   "z": -0.16,
-   "accel_3h": 6,
+   "symbol": "ONDOUSDT",
+   "mentions_last_h": 25,
+   "baseline_h": 30,
+   "z": -0.19,
+   "accel_3h": -26,
    "category": "normal"
   },
   {
    "symbol": "AVAXUSDT",
    "mentions_last_h": 125,
-   "baseline_h": 140,
-   "z": -0.27,
-   "accel_3h": -37,
+   "baseline_h": 139,
+   "z": -0.25,
+   "accel_3h": -67,
    "category": "normal"
   },
   {
-   "symbol": "PUMPUSDT",
-   "mentions_last_h": 111,
-   "baseline_h": 123,
-   "z": -0.28,
-   "accel_3h": -28,
-   "category": "normal"
+   "symbol": "AKEUSDT",
+   "mentions_last_h": 17,
+   "baseline_h": 22,
+   "z": -0.26,
+   "accel_3h": 0,
+   "category": "BOT_SUSPECT",
+   "chg24": 42.74,
+   "z_price": 10.23,
+   "direction": "up",
+   "fund": 0.005,
+   "hype_confirmed": false,
+   "pump_without_hype": true
   },
   {
-   "symbol": "SOLUSDT",
-   "mentions_last_h": 3595,
-   "baseline_h": 3946,
-   "z": -0.3,
-   "accel_3h": -1355,
-   "category": "normal"
-  },
-  {
-   "symbol": "BCHUSDT",
-   "mentions_last_h": 3,
-   "baseline_h": 4,
+   "symbol": "TAOUSDT",
+   "mentions_last_h": 63,
+   "baseline_h": 73,
    "z": -0.34,
+   "accel_3h": -26,
+   "category": "normal"
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "mentions_last_h": 198,
+   "baseline_h": 227,
+   "z": -0.44,
+   "accel_3h": -13,
+   "category": "normal"
+  },
+  {
+   "symbol": "XRPUSDT",
+   "mentions_last_h": 477,
+   "baseline_h": 552,
+   "z": -0.47,
    "accel_3h": -4,
    "category": "normal"
   },
   {
-   "symbol": "CAKEUSDT",
-   "mentions_last_h": 11,
-   "baseline_h": 16,
-   "z": -0.42,
-   "accel_3h": -16,
-   "category": "normal"
-  },
-  {
-   "symbol": "TAOUSDT",
-   "mentions_last_h": 58,
-   "baseline_h": 73,
-   "z": -0.51,
-   "accel_3h": -17,
-   "category": "normal"
-  },
-  {
-   "symbol": "TRXUSDT",
-   "mentions_last_h": 526,
-   "baseline_h": 629,
+   "symbol": "AAVEUSDT",
+   "mentions_last_h": 5,
+   "baseline_h": 10,
    "z": -0.56,
-   "accel_3h": -57,
+   "accel_3h": -11,
+   "category": "normal"
+  },
+  {
+   "symbol": "SOLUSDT",
+   "mentions_last_h": 3240,
+   "baseline_h": 3946,
+   "z": -0.61,
+   "accel_3h": -1291,
+   "category": "normal"
+  },
+  {
+   "symbol": "BANKUSDT",
+   "mentions_last_h": 32,
+   "baseline_h": 61,
+   "z": -0.63,
+   "accel_3h": -43,
    "category": "normal"
   },
   {
    "symbol": "SUIUSDT",
    "mentions_last_h": 15,
    "baseline_h": 23,
-   "z": -0.67,
-   "accel_3h": 2,
-   "category": "normal"
-  },
-  {
-   "symbol": "ONDOUSDT",
-   "mentions_last_h": 12,
-   "baseline_h": 30,
-   "z": -0.67,
-   "accel_3h": -6,
-   "category": "normal"
-  },
-  {
-   "symbol": "WIFUSDT",
-   "mentions_last_h": 7,
-   "baseline_h": 11,
    "z": -0.67,
    "accel_3h": -5,
    "category": "normal"
@@ -361,38 +305,70 @@
    "mentions_last_h": 3,
    "baseline_h": 6,
    "z": -0.67,
-   "accel_3h": -3,
+   "accel_3h": -2,
+   "category": "normal"
+  },
+  {
+   "symbol": "ETHUSDT",
+   "mentions_last_h": 782,
+   "baseline_h": 1008,
+   "z": -0.68,
+   "accel_3h": -373,
+   "category": "normal"
+  },
+  {
+   "symbol": "1000PEPEUSDT",
+   "mentions_last_h": 50,
+   "baseline_h": 81,
+   "z": -0.7,
+   "accel_3h": 35,
+   "category": "normal"
+  },
+  {
+   "symbol": "INJUSDT",
+   "mentions_last_h": 126,
+   "baseline_h": 166,
+   "z": -0.75,
+   "accel_3h": -6,
    "category": "normal"
   },
   {
    "symbol": "ENAUSDT",
-   "mentions_last_h": 11,
+   "mentions_last_h": 10,
    "baseline_h": 20,
-   "z": -0.67,
-   "accel_3h": -11,
+   "z": -0.75,
+   "accel_3h": -6,
    "category": "normal"
   },
   {
-   "symbol": "LINKUSDT",
-   "mentions_last_h": 71,
-   "baseline_h": 98,
-   "z": -0.73,
-   "accel_3h": -34,
+   "symbol": "LTCUSDT",
+   "mentions_last_h": 63,
+   "baseline_h": 89,
+   "z": -0.8,
+   "accel_3h": -13,
    "category": "normal"
   },
   {
    "symbol": "WLDUSDT",
-   "mentions_last_h": 8,
+   "mentions_last_h": 7,
    "baseline_h": 17,
-   "z": -0.76,
-   "accel_3h": -4,
+   "z": -0.84,
+   "accel_3h": 0,
+   "category": "normal"
+  },
+  {
+   "symbol": "UNIUSDT",
+   "mentions_last_h": 81,
+   "baseline_h": 126,
+   "z": -0.92,
+   "accel_3h": -31,
    "category": "normal"
   },
   {
    "symbol": "DEXEUSDT",
-   "mentions_last_h": 16,
+   "mentions_last_h": 9,
    "baseline_h": 41,
-   "z": -0.8,
+   "z": -1.03,
    "accel_3h": -3,
    "category": "BOT_SUSPECT",
    "chg24": -27.83,
@@ -401,7 +377,152 @@
    "fund": -0.1897,
    "hype_confirmed": false,
    "pump_without_hype": true
+  },
+  {
+   "symbol": "LINKUSDT",
+   "mentions_last_h": 56,
+   "baseline_h": 98,
+   "z": -1.09,
+   "accel_3h": -38,
+   "category": "normal"
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "mentions_last_h": 3,
+   "baseline_h": 16,
+   "z": -1.1,
+   "accel_3h": -20,
+   "category": "normal"
+  },
+  {
+   "symbol": "TRXUSDT",
+   "mentions_last_h": 411,
+   "baseline_h": 629,
+   "z": -1.2,
+   "accel_3h": -78,
+   "category": "normal"
   }
  ],
- "whale_alerts": []
+ "whale_alerts": [
+  {
+   "whale": "elonmusk",
+   "text": "@HedgieMarkets I\u2019ve asked the SpaceXAI team to preserve any rare books in a library and scan them the hard way vs just cutting off the spine and scanning",
+   "created": "2026-07-27T20:48:22.000Z",
+   "coins": []
+  },
+  {
+   "whale": "elonmusk",
+   "text": "@GadSaad I wonder who is giving this Reid man, who has no brain, his talking points \ud83e\udd14",
+   "created": "2026-07-27T20:46:36.000Z",
+   "coins": []
+  },
+  {
+   "whale": "whale_alert",
+   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  1,812 $BTC (115,292,235 USD) transferred from #Kraken to unknown wallet\n\nhttps://t.co/Qhc8dzG8sf",
+   "created": "2026-07-28T00:15:19.000Z",
+   "coins": []
+  },
+  {
+   "whale": "whale_alert",
+   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  191,626,387 $USDC (191,673,527 USD) transferred from Unknown Whale 1 to #Aave\n\nhttps://t.co/HWRPbIY5OA",
+   "created": "2026-07-28T00:14:35.000Z",
+   "coins": []
+  },
+  {
+   "whale": "whale_alert",
+   "text": "\ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  191,598,990 $USDC (191,652,446 USD) transferred from #Aave to Unknown Whale 1\n\nhttps://t.co/kkiIjN0lDn",
+   "created": "2026-07-27T23:20:25.000Z",
+   "coins": []
+  },
+  {
+   "whale": "whale_alert",
+   "text": "\ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5 \ud83d\udcb5  250,000,000 $USDC (250,224,999 USD) minted at USDC Treasury\n\nhttps://t.co/grTp38fWHm",
+   "created": "2026-07-27T22:04:19.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
+   "text": "Source: https://t.co/tdoKCTB1Wq https://t.co/XoNnpCy11u",
+   "created": "2026-07-27T22:59:39.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
+   "text": "JUST IN: Bitcoin falls back under $64,000 as $100 million is liquidated from the crypto market in the past 60 minutes. https://t.co/6ZkSi9UVMw",
+   "created": "2026-07-27T22:54:30.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
+   "text": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Citadel Securities expects the Federal Reserve to raise interest rates this week in a surprise move.",
+   "created": "2026-07-27T22:04:51.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
+   "text": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion asset manager Franklin Templeton calls on US Senate to pass the crypto Clarity Act.",
+   "created": "2026-07-27T21:30:06.000Z",
+   "coins": []
+  },
+  {
+   "whale": "WatcherGuru",
+   "text": "JUST IN: Coinbase expects crypto Clarity Act vote as early as Monday, August 3rd.",
+   "created": "2026-07-27T19:16:28.000Z",
+   "coins": []
+  },
+  {
+   "whale": "Pentosh1",
+   "text": "\ud83c\udfaf https://t.co/3sI92kJ63J",
+   "created": "2026-07-27T23:02:22.000Z",
+   "coins": []
+  },
+  {
+   "whale": "Pentosh1",
+   "text": "@ttttcb07 @mkkkmoo My guess would be a separate US front end with hard geo block and front end KYC for all",
+   "created": "2026-07-27T19:25:30.000Z",
+   "coins": []
+  },
+  {
+   "whale": "Pentosh1",
+   "text": "@ttttcb07 @mkkkmoo Technically it\u2019s not available to the US \ud83d\ude09",
+   "created": "2026-07-27T19:18:12.000Z",
+   "coins": []
+  },
+  {
+   "whale": "MustStopMurad",
+   "text": "Where the current world is going:\n\nGDP will increase, but median human happiness will decrease.\n\nThis is why SPX6900 going to Trillions of $$$ is inevitable, ac",
+   "created": "2026-07-27T21:03:37.000Z",
+   "coins": []
+  },
+  {
+   "whale": "MustStopMurad",
+   "text": "RT @CountryBitcoin: Persist Forever 061 with @positivepaully is out now!\n\nLink below: https://t.co/vW7OosJaT3",
+   "created": "2026-07-27T20:16:00.000Z",
+   "coins": []
+  },
+  {
+   "whale": "MilesDeutscher",
+   "text": "I don't think people realise how huge crypto x AI is about to be.\n\nCrypto = core infrastructure\n\nAI = everything else that runs on top (agents, payments, etc.)\n",
+   "created": "2026-07-27T22:18:01.000Z",
+   "coins": []
+  },
+  {
+   "whale": "MilesDeutscher",
+   "text": "Kimi K3 is one of the best models you can run in your Hermes agent.\n\nIt's literally perfect for agent workflows (90% token discount).\n\nIt even beats (or matches",
+   "created": "2026-07-27T19:21:02.000Z",
+   "coins": []
+  },
+  {
+   "whale": "binance",
+   "text": "No caption needed. https://t.co/7QIc7bYZDH",
+   "created": "2026-07-28T00:00:29.000Z",
+   "coins": []
+  },
+  {
+   "whale": "binance",
+   "text": "The best notification to wake up to. \ud83d\udcf2\n\nYour stablecoins are working while you sleep with RWUSD rewards.\n\nSubscribe today \ud83d\udc49 https://t.co/NPErEuDLXp https://t.co",
+   "created": "2026-07-27T21:00:35.000Z",
+   "coins": []
+  }
+ ]
 }
